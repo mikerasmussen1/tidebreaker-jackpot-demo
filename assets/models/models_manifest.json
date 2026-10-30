@@ -680,10 +680,11 @@
    0.129,
    0.254
   ],
-  "bytes": 1387152,
+  "bytes": 462248,
   "source": "ember_swordfish",
   "sailVerts": 532,
-  "billRoot": 0.8
+  "billRoot": 0.8,
+  "source3d": "meshy"
  },
  "giant_clownfish": {
   "id": "G01",
@@ -1055,12 +1056,13 @@
    0.871,
    0.387
   ],
-  "bytes": 1703380,
+  "bytes": 690684,
   "source": "blast_crab",
   "walkSpeed": 0.1419,
   "stride": 0.065,
   "footSlip": 0.0,
-  "footLift": 0.0245
+  "footLift": 0.0245,
+  "source3d": "meshy"
  },
  "auger_crab": {
   "id": "C02",
@@ -1122,12 +1124,13 @@
    0.836,
    0.399
   ],
-  "bytes": 1746188,
+  "bytes": 715208,
   "source": "auger_crab",
   "walkSpeed": 0.1387,
   "stride": 0.0636,
   "footSlip": 0.0,
-  "footLift": 0.0232
+  "footLift": 0.0232,
+  "source3d": "meshy"
  },
  "quake_crab": {
   "id": "C03",
@@ -1189,12 +1192,13 @@
    0.803,
    0.475
   ],
-  "bytes": 1637180,
+  "bytes": 665388,
   "source": "quake_crab",
   "walkSpeed": 0.1209,
   "stride": 0.0554,
   "footSlip": 0.0,
-  "footLift": 0.0181
+  "footLift": 0.0181,
+  "source3d": "meshy"
  },
  "prism_crab": {
   "id": "C04",
@@ -1256,12 +1260,13 @@
    0.912,
    0.484
   ],
-  "bytes": 1735440,
+  "bytes": 715224,
   "source": "prism_crab",
   "walkSpeed": 0.1433,
   "stride": 0.0657,
   "footSlip": 0.0,
-  "footLift": 0.0256
+  "footLift": 0.0256,
+  "source3d": "meshy"
  },
  "fortune_crab": {
   "id": "C05",
@@ -1323,12 +1328,13 @@
    0.872,
    0.249
   ],
-  "bytes": 1706668,
+  "bytes": 702040,
   "source": "fortune_crab",
   "walkSpeed": 0.1421,
   "stride": 0.0651,
   "footSlip": 0.0,
-  "footLift": 0.0231
+  "footLift": 0.0231,
+  "source3d": "meshy"
  },
  "chain_lightning_needlefish": {
   "id": "S02",
