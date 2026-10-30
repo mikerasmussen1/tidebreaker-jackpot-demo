@@ -4,227 +4,19 @@
   "name": "wingfin_minnow",
   "kind": "fish",
   "view": "top",
-  "tris": 700,
-  "budget": 700,
-  "verts": 358,
-  "bones": 4,
-  "boneNames": [
-   "spine0",
-   "spine1",
-   "spine2",
-   "spine3"
-  ],
-  "actions": [
-   "die",
-   "hit",
-   "swim",
-   "turn"
-  ],
-  "texture": "256x256",
-  "size": [
-   0.992,
-   0.841,
-   0.366
-  ],
-  "bytes": 117220,
-  "source": "wingfin_minnow"
- },
- "ember_clownfish": {
-  "id": "F02",
-  "name": "ember_clownfish",
-  "kind": "fish",
-  "view": "top",
-  "tris": 700,
-  "budget": 700,
-  "verts": 350,
-  "bones": 4,
-  "boneNames": [
-   "spine0",
-   "spine1",
-   "spine2",
-   "spine3"
-  ],
-  "actions": [
-   "die",
-   "hit",
-   "swim",
-   "turn"
-  ],
-  "texture": "256x256",
-  "size": [
-   0.999,
-   0.438,
-   0.287
-  ],
-  "bytes": 133380,
-  "source": "ember_clownfish"
- },
- "sunstripe_darter": {
-  "id": "F03",
-  "name": "sunstripe_darter",
-  "kind": "fish",
-  "view": "top",
-  "tris": 700,
-  "budget": 700,
-  "verts": 352,
-  "bones": 4,
-  "boneNames": [
-   "spine0",
-   "spine1",
-   "spine2",
-   "spine3"
-  ],
-  "actions": [
-   "die",
-   "hit",
-   "swim",
-   "turn"
-  ],
-  "texture": "256x256",
-  "size": [
-   0.883,
-   0.514,
-   0.241
-  ],
-  "bytes": 120780,
-  "source": "sunstripe_darter"
- },
- "bubblegum_puffer": {
-  "id": "F04",
-  "name": "bubblegum_puffer",
-  "kind": "puffer",
-  "view": "top",
-  "tris": 900,
-  "budget": 900,
-  "verts": 452,
-  "bones": 3,
-  "boneNames": [
-   "spine0",
-   "spine1",
-   "spine2"
-  ],
-  "actions": [
-   "die",
-   "hit",
-   "swim",
-   "turn"
-  ],
-  "texture": "256x256",
-  "size": [
-   1.0,
-   0.725,
-   0.763
-  ],
-  "bytes": 134812,
-  "source": "bubblegum_puffer"
- },
- "orchid_lionfish": {
-  "id": "F05",
-  "name": "orchid_lionfish",
-  "kind": "fish",
-  "view": "top",
-  "tris": 1000,
-  "budget": 1000,
-  "verts": 480,
-  "bones": 4,
-  "boneNames": [
-   "spine0",
-   "spine1",
-   "spine2",
-   "spine3"
-  ],
-  "actions": [
-   "die",
-   "hit",
-   "swim",
-   "turn"
-  ],
-  "texture": "256x256",
-  "size": [
-   0.996,
-   0.874,
-   0.395
-  ],
-  "bytes": 151528,
-  "source": "orchid_lionfish"
- },
- "lemon_frogfish": {
-  "id": "F06",
-  "name": "lemon_frogfish",
-  "kind": "fish",
-  "view": "top",
-  "tris": 900,
-  "budget": 900,
-  "verts": 452,
-  "bones": 4,
-  "boneNames": [
-   "spine0",
-   "spine1",
-   "spine2",
-   "spine3"
-  ],
-  "actions": [
-   "die",
-   "hit",
-   "swim",
-   "turn"
-  ],
-  "texture": "256x256",
-  "size": [
-   0.988,
-   0.787,
-   0.56
-  ],
-  "bytes": 144264,
-  "source": "lemon_frogfish"
- },
- "ruby_lobster": {
-  "id": "F07",
-  "name": "ruby_lobster",
-  "kind": "fish",
-  "view": "top",
-  "tris": 1100,
-  "budget": 1100,
-  "verts": 556,
-  "bones": 5,
-  "boneNames": [
-   "spine0",
-   "spine1",
-   "spine2",
-   "spine3",
-   "spine4"
-  ],
-  "actions": [
-   "die",
-   "hit",
-   "swim",
-   "turn"
-  ],
-  "texture": "256x256",
-  "size": [
-   0.993,
-   0.628,
-   0.313
-  ],
-  "bytes": 184224,
-  "source": "ruby_lobster"
- },
- "violet_needlefish": {
-  "id": "F08",
-  "name": "violet_needlefish",
-  "kind": "eel",
-  "view": "top",
-  "tris": 900,
-  "budget": 900,
-  "verts": 452,
-  "bones": 6,
+  "tris": 4500,
+  "budget": 4500,
+  "verts": 2245,
+  "bones": 8,
   "boneNames": [
    "spine0",
    "spine1",
    "spine2",
    "spine3",
    "spine4",
-   "spine5"
+   "spine5",
+   "pec_L",
+   "pec_R"
   ],
   "actions": [
    "die",
@@ -232,23 +24,403 @@
    "swim",
    "turn"
   ],
-  "texture": "256x256",
+  "texture": "512x512",
   "size": [
-   0.882,
-   0.089,
-   0.172
+   0.994,
+   0.71,
+   0.533
   ],
-  "bytes": 109504,
-  "source": "violet_needlefish"
+  "bytes": 398780,
+  "source": "wingfin_minnow",
+  "source3d": "meshy",
+  "meshyRotation": [
+   [
+    0,
+    -1,
+    0
+   ],
+   [
+    0,
+    0,
+    -1
+   ],
+   [
+    1,
+    0,
+    0
+   ]
+  ]
+ },
+ "ember_clownfish": {
+  "id": "F02",
+  "name": "ember_clownfish",
+  "kind": "fish",
+  "view": "top",
+  "tris": 4499,
+  "budget": 4500,
+  "verts": 2261,
+  "bones": 8,
+  "boneNames": [
+   "spine0",
+   "spine1",
+   "spine2",
+   "spine3",
+   "spine4",
+   "spine5",
+   "pec_L",
+   "pec_R"
+  ],
+  "actions": [
+   "die",
+   "hit",
+   "swim",
+   "turn"
+  ],
+  "texture": "512x512",
+  "size": [
+   0.999,
+   0.408,
+   0.5
+  ],
+  "bytes": 407896,
+  "source": "ember_clownfish",
+  "source3d": "meshy",
+  "meshyRotation": [
+   [
+    0,
+    -1,
+    0
+   ],
+   [
+    0,
+    0,
+    -1
+   ],
+   [
+    1,
+    0,
+    0
+   ]
+  ]
+ },
+ "sunstripe_darter": {
+  "id": "F03",
+  "name": "sunstripe_darter",
+  "kind": "fish",
+  "view": "top",
+  "tris": 4499,
+  "budget": 4500,
+  "verts": 2253,
+  "bones": 8,
+  "boneNames": [
+   "spine0",
+   "spine1",
+   "spine2",
+   "spine3",
+   "spine4",
+   "spine5",
+   "pec_L",
+   "pec_R"
+  ],
+  "actions": [
+   "die",
+   "hit",
+   "swim",
+   "turn"
+  ],
+  "texture": "512x512",
+  "size": [
+   0.883,
+   0.3,
+   0.471
+  ],
+  "bytes": 474492,
+  "source": "sunstripe_darter",
+  "source3d": "meshy",
+  "meshyRotation": [
+   [
+    0,
+    -1,
+    0
+   ],
+   [
+    0,
+    0,
+    -1
+   ],
+   [
+    1,
+    0,
+    0
+   ]
+  ]
+ },
+ "bubblegum_puffer": {
+  "id": "F04",
+  "name": "bubblegum_puffer",
+  "kind": "puffer",
+  "view": "top",
+  "tris": 4500,
+  "budget": 4500,
+  "verts": 2252,
+  "bones": 6,
+  "boneNames": [
+   "spine0",
+   "spine1",
+   "spine2",
+   "spine3",
+   "pec_L",
+   "pec_R"
+  ],
+  "actions": [
+   "die",
+   "hit",
+   "swim",
+   "turn"
+  ],
+  "texture": "512x512",
+  "size": [
+   0.999,
+   0.888,
+   0.784
+  ],
+  "bytes": 338492,
+  "source": "bubblegum_puffer",
+  "source3d": "meshy",
+  "meshyRotation": [
+   [
+    -1,
+    0,
+    0
+   ],
+   [
+    0,
+    0,
+    -1
+   ],
+   [
+    0,
+    -1,
+    0
+   ]
+  ]
+ },
+ "orchid_lionfish": {
+  "id": "F05",
+  "name": "orchid_lionfish",
+  "kind": "fish",
+  "view": "top",
+  "tris": 4500,
+  "budget": 4500,
+  "verts": 2253,
+  "bones": 8,
+  "boneNames": [
+   "spine0",
+   "spine1",
+   "spine2",
+   "spine3",
+   "spine4",
+   "spine5",
+   "pec_L",
+   "pec_R"
+  ],
+  "actions": [
+   "die",
+   "hit",
+   "swim",
+   "turn"
+  ],
+  "texture": "512x512",
+  "size": [
+   1.0,
+   0.345,
+   0.614
+  ],
+  "bytes": 409972,
+  "source": "orchid_lionfish",
+  "source3d": "meshy",
+  "meshyRotation": [
+   [
+    0,
+    -1,
+    0
+   ],
+   [
+    0,
+    0,
+    -1
+   ],
+   [
+    1,
+    0,
+    0
+   ]
+  ]
+ },
+ "lemon_frogfish": {
+  "id": "F06",
+  "name": "lemon_frogfish",
+  "kind": "fish",
+  "view": "top",
+  "tris": 4500,
+  "budget": 4500,
+  "verts": 2252,
+  "bones": 8,
+  "boneNames": [
+   "spine0",
+   "spine1",
+   "spine2",
+   "spine3",
+   "spine4",
+   "spine5",
+   "pec_L",
+   "pec_R"
+  ],
+  "actions": [
+   "die",
+   "hit",
+   "swim",
+   "turn"
+  ],
+  "texture": "512x512",
+  "size": [
+   0.999,
+   0.76,
+   0.55
+  ],
+  "bytes": 339176,
+  "source": "lemon_frogfish",
+  "source3d": "meshy",
+  "meshyRotation": [
+   [
+    0,
+    -1,
+    0
+   ],
+   [
+    0,
+    0,
+    -1
+   ],
+   [
+    1,
+    0,
+    0
+   ]
+  ]
+ },
+ "ruby_lobster": {
+  "id": "F07",
+  "name": "ruby_lobster",
+  "kind": "fish",
+  "view": "top",
+  "tris": 6999,
+  "budget": 7000,
+  "verts": 3494,
+  "bones": 8,
+  "boneNames": [
+   "spine0",
+   "spine1",
+   "spine2",
+   "spine3",
+   "spine4",
+   "spine5",
+   "pec_L",
+   "pec_R"
+  ],
+  "actions": [
+   "die",
+   "hit",
+   "swim",
+   "turn"
+  ],
+  "texture": "512x512",
+  "size": [
+   1.0,
+   0.642,
+   0.239
+  ],
+  "bytes": 558392,
+  "source": "ruby_lobster",
+  "source3d": "meshy",
+  "meshyRotation": [
+   [
+    0,
+    -1,
+    0
+   ],
+   [
+    0,
+    0,
+    -1
+   ],
+   [
+    1,
+    0,
+    0
+   ]
+  ]
+ },
+ "violet_needlefish": {
+  "id": "F08",
+  "name": "violet_needlefish",
+  "kind": "eel",
+  "view": "top",
+  "tris": 4440,
+  "budget": 4500,
+  "verts": 2219,
+  "bones": 8,
+  "boneNames": [
+   "spine0",
+   "spine1",
+   "spine2",
+   "spine3",
+   "spine4",
+   "spine5",
+   "spine6",
+   "spine7"
+  ],
+  "actions": [
+   "die",
+   "hit",
+   "swim",
+   "turn"
+  ],
+  "texture": "512x512",
+  "size": [
+   0.9,
+   0.187,
+   0.25
+  ],
+  "bytes": 436904,
+  "source": "violet_needlefish",
+  "source3d": "meshy",
+  "meshyRotation": [
+   [
+    0,
+    -1,
+    0
+   ],
+   [
+    0,
+    0,
+    -1
+   ],
+   [
+    1,
+    0,
+    0
+   ]
+  ]
  },
  "jade_turtle": {
   "id": "F09",
   "name": "jade_turtle",
   "kind": "turtle",
   "view": "top",
-  "tris": 1300,
-  "budget": 1300,
-  "verts": 652,
+  "tris": 8000,
+  "budget": 8000,
+  "verts": 4003,
   "bones": 13,
   "boneNames": [
    "body",
@@ -273,21 +445,39 @@
   ],
   "texture": "512x512",
   "size": [
-   1.004,
-   0.996,
-   0.483
+   1.0,
+   1.0,
+   0.325
   ],
-  "bytes": 394828,
-  "source": "jade_turtle"
+  "bytes": 550760,
+  "source": "jade_turtle",
+  "source3d": "meshy",
+  "meshyRotation": [
+   [
+    0,
+    -1,
+    0
+   ],
+   [
+    0,
+    0,
+    -1
+   ],
+   [
+    1,
+    0,
+    0
+   ]
+  ]
  },
  "coral_octopus": {
   "id": "F10",
   "name": "coral_octopus",
   "kind": "octopus",
   "view": "top",
-  "tris": 1600,
-  "budget": 1600,
-  "verts": 828,
+  "tris": 7999,
+  "budget": 8000,
+  "verts": 3964,
   "bones": 28,
   "boneNames": [
    "body",
@@ -327,27 +517,49 @@
   ],
   "texture": "512x512",
   "size": [
-   0.991,
-   1.045,
-   0.488
+   1.046,
+   1.043,
+   0.518
   ],
-  "bytes": 441840,
-  "source": "coral_octopus"
+  "bytes": 722684,
+  "source": "coral_octopus",
+  "source3d": "meshy",
+  "meshyRotation": [
+   [
+    0,
+    -1,
+    0
+   ],
+   [
+    0,
+    0,
+    -1
+   ],
+   [
+    1,
+    0,
+    0
+   ]
+  ]
  },
  "glowlamp_angler": {
   "id": "F11",
   "name": "glowlamp_angler",
   "kind": "fish",
   "view": "top",
-  "tris": 1200,
-  "budget": 1200,
-  "verts": 608,
-  "bones": 4,
+  "tris": 4499,
+  "budget": 4500,
+  "verts": 2256,
+  "bones": 8,
   "boneNames": [
    "spine0",
    "spine1",
    "spine2",
-   "spine3"
+   "spine3",
+   "spine4",
+   "spine5",
+   "pec_L",
+   "pec_R"
   ],
   "actions": [
    "die",
@@ -357,21 +569,39 @@
   ],
   "texture": "512x512",
   "size": [
-   0.971,
-   0.463,
-   0.425
+   0.985,
+   0.416,
+   0.59
   ],
-  "bytes": 382456,
-  "source": "glowlamp_angler"
+  "bytes": 427976,
+  "source": "glowlamp_angler",
+  "source3d": "meshy",
+  "meshyRotation": [
+   [
+    0,
+    -1,
+    0
+   ],
+   [
+    0,
+    0,
+    -1
+   ],
+   [
+    1,
+    0,
+    0
+   ]
+  ]
  },
  "azure_manta": {
   "id": "F12",
   "name": "azure_manta",
   "kind": "ray",
   "view": "top",
-  "tris": 1200,
-  "budget": 1200,
-  "verts": 602,
+  "tris": 7999,
+  "budget": 8000,
+  "verts": 4002,
   "bones": 6,
   "boneNames": [
    "body",
@@ -389,21 +619,39 @@
   ],
   "texture": "512x512",
   "size": [
-   0.93,
+   0.968,
    0.97,
-   0.357
+   0.116
   ],
-  "bytes": 258488,
-  "source": "azure_manta"
+  "bytes": 530624,
+  "source": "azure_manta",
+  "source3d": "meshy",
+  "meshyRotation": [
+   [
+    0,
+    -1,
+    0
+   ],
+   [
+    0,
+    0,
+    -1
+   ],
+   [
+    1,
+    0,
+    0
+   ]
+  ]
  },
  "ember_swordfish": {
   "id": "F13",
   "name": "ember_swordfish",
   "kind": "billfish",
   "view": "top",
-  "tris": 1100,
-  "budget": 1100,
-  "verts": 552,
+  "tris": 4485,
+  "budget": 4500,
+  "verts": 2249,
   "bones": 12,
   "boneNames": [
    "spine0",
@@ -429,12 +677,12 @@
   "texture": "512x512",
   "size": [
    0.96,
-   0.199,
-   0.233
+   0.129,
+   0.254
   ],
-  "bytes": 238192,
+  "bytes": 1387152,
   "source": "ember_swordfish",
-  "sailVerts": 73,
+  "sailVerts": 532,
   "billRoot": 0.8
  },
  "giant_clownfish": {
@@ -442,16 +690,19 @@
   "name": "giant_clownfish",
   "kind": "fish",
   "view": "top",
-  "tris": 1800,
-  "budget": 1800,
-  "verts": 902,
-  "bones": 5,
+  "tris": 8000,
+  "budget": 8000,
+  "verts": 4005,
+  "bones": 8,
   "boneNames": [
    "spine0",
    "spine1",
    "spine2",
    "spine3",
-   "spine4"
+   "spine4",
+   "spine5",
+   "pec_L",
+   "pec_R"
   ],
   "actions": [
    "die",
@@ -461,28 +712,49 @@
   ],
   "texture": "512x512",
   "size": [
-   0.998,
-   0.46,
-   0.351
+   0.999,
+   0.309,
+   0.489
   ],
-  "bytes": 395308,
-  "source": "giant_clownfish"
+  "bytes": 561392,
+  "source": "giant_clownfish",
+  "source3d": "meshy",
+  "meshyRotation": [
+   [
+    0,
+    -1,
+    0
+   ],
+   [
+    0,
+    0,
+    -1
+   ],
+   [
+    1,
+    0,
+    0
+   ]
+  ]
  },
  "giant_bannerfish": {
   "id": "G02",
   "name": "giant_bannerfish",
   "kind": "fish",
   "view": "top",
-  "tris": 1800,
-  "budget": 1800,
-  "verts": 904,
-  "bones": 5,
+  "tris": 7999,
+  "budget": 8000,
+  "verts": 4003,
+  "bones": 8,
   "boneNames": [
    "spine0",
    "spine1",
    "spine2",
    "spine3",
-   "spine4"
+   "spine4",
+   "spine5",
+   "pec_L",
+   "pec_R"
   ],
   "actions": [
    "die",
@@ -492,26 +764,47 @@
   ],
   "texture": "512x512",
   "size": [
-   0.882,
-   0.426,
-   0.253
+   0.883,
+   0.241,
+   0.597
   ],
-  "bytes": 321540,
-  "source": "giant_bannerfish"
+  "bytes": 631928,
+  "source": "giant_bannerfish",
+  "source3d": "meshy",
+  "meshyRotation": [
+   [
+    0,
+    -1,
+    0
+   ],
+   [
+    0,
+    0,
+    -1
+   ],
+   [
+    1,
+    0,
+    0
+   ]
+  ]
  },
  "giant_fugu": {
   "id": "G03",
   "name": "giant_fugu",
   "kind": "puffer",
   "view": "top",
-  "tris": 1800,
-  "budget": 1800,
-  "verts": 902,
-  "bones": 3,
+  "tris": 8000,
+  "budget": 8000,
+  "verts": 4002,
+  "bones": 6,
   "boneNames": [
    "spine0",
    "spine1",
-   "spine2"
+   "spine2",
+   "spine3",
+   "pec_L",
+   "pec_R"
   ],
   "actions": [
    "die",
@@ -521,29 +814,49 @@
   ],
   "texture": "512x512",
   "size": [
-   1.0,
-   0.792,
-   0.82
+   0.997,
+   0.906,
+   0.836
   ],
-  "bytes": 353484,
-  "source": "giant_fugu"
+  "bytes": 498696,
+  "source": "giant_fugu",
+  "source3d": "meshy",
+  "meshyRotation": [
+   [
+    0,
+    -1,
+    0
+   ],
+   [
+    0,
+    0,
+    -1
+   ],
+   [
+    1,
+    0,
+    0
+   ]
+  ]
  },
  "tidal_shark": {
   "id": "G04",
   "name": "tidal_shark",
   "kind": "fish",
   "view": "top",
-  "tris": 2200,
-  "budget": 2200,
-  "verts": 1102,
-  "bones": 6,
+  "tris": 7999,
+  "budget": 8000,
+  "verts": 3990,
+  "bones": 8,
   "boneNames": [
    "spine0",
    "spine1",
    "spine2",
    "spine3",
    "spine4",
-   "spine5"
+   "spine5",
+   "pec_L",
+   "pec_R"
   ],
   "actions": [
    "die",
@@ -553,29 +866,49 @@
   ],
   "texture": "512x512",
   "size": [
-   0.973,
-   0.508,
-   0.55
+   0.972,
+   0.527,
+   0.457
   ],
-  "bytes": 365528,
-  "source": "tidal_shark"
+  "bytes": 558804,
+  "source": "tidal_shark",
+  "source3d": "meshy",
+  "meshyRotation": [
+   [
+    0,
+    -1,
+    0
+   ],
+   [
+    0,
+    0,
+    -1
+   ],
+   [
+    1,
+    0,
+    0
+   ]
+  ]
  },
  "ember_orca": {
   "id": "G05",
   "name": "ember_orca",
   "kind": "fish",
   "view": "top",
-  "tris": 2200,
-  "budget": 2200,
-  "verts": 1102,
-  "bones": 6,
+  "tris": 7999,
+  "budget": 8000,
+  "verts": 4002,
+  "bones": 8,
   "boneNames": [
    "spine0",
    "spine1",
    "spine2",
    "spine3",
    "spine4",
-   "spine5"
+   "spine5",
+   "pec_R",
+   "pec_L"
   ],
   "actions": [
    "die",
@@ -585,29 +918,49 @@
   ],
   "texture": "512x512",
   "size": [
-   0.99,
-   0.522,
-   0.357
+   0.994,
+   0.319,
+   0.459
   ],
-  "bytes": 359816,
-  "source": "ember_orca"
+  "bytes": 519620,
+  "source": "ember_orca",
+  "source3d": "meshy",
+  "meshyRotation": [
+   [
+    0,
+    -1,
+    0
+   ],
+   [
+    0,
+    0,
+    -1
+   ],
+   [
+    1,
+    0,
+    0
+   ]
+  ]
  },
  "sovereign_gold_whale": {
   "id": "G06",
   "name": "sovereign_gold_whale",
   "kind": "fish",
   "view": "top",
-  "tris": 2600,
-  "budget": 2600,
-  "verts": 1306,
-  "bones": 6,
+  "tris": 12000,
+  "budget": 12000,
+  "verts": 6003,
+  "bones": 8,
   "boneNames": [
    "spine0",
    "spine1",
    "spine2",
    "spine3",
    "spine4",
-   "spine5"
+   "spine5",
+   "pec_L",
+   "pec_R"
   ],
   "actions": [
    "die",
@@ -617,21 +970,39 @@
   ],
   "texture": "1024x1024",
   "size": [
-   0.996,
-   0.51,
-   0.288
+   0.995,
+   0.523,
+   0.254
   ],
-  "bytes": 1079352,
-  "source": "sovereign_gold_whale"
+  "bytes": 1046108,
+  "source": "sovereign_gold_whale",
+  "source3d": "meshy",
+  "meshyRotation": [
+   [
+    0,
+    -1,
+    0
+   ],
+   [
+    0,
+    0,
+    -1
+   ],
+   [
+    1,
+    0,
+    0
+   ]
+  ]
  },
  "blast_crab": {
   "id": "C01",
   "name": "blast_crab",
   "kind": "crab",
   "view": "top",
-  "tris": 3000,
-  "budget": 3000,
-  "verts": 1508,
+  "tris": 6999,
+  "budget": 7000,
+  "verts": 3507,
   "bones": 35,
   "boneNames": [
    "root",
@@ -680,25 +1051,25 @@
   ],
   "texture": "512x512",
   "size": [
-   1.0,
-   0.869,
-   0.562
+   0.999,
+   0.871,
+   0.387
   ],
-  "bytes": 666824,
+  "bytes": 1703380,
   "source": "blast_crab",
-  "walkSpeed": 0.1331,
-  "stride": 0.061,
+  "walkSpeed": 0.1419,
+  "stride": 0.065,
   "footSlip": 0.0,
-  "footLift": 0.0243
+  "footLift": 0.0245
  },
  "auger_crab": {
   "id": "C02",
   "name": "auger_crab",
   "kind": "crab",
   "view": "top",
-  "tris": 3000,
-  "budget": 3000,
-  "verts": 1528,
+  "tris": 7000,
+  "budget": 7000,
+  "verts": 3503,
   "bones": 35,
   "boneNames": [
    "root",
@@ -747,25 +1118,25 @@
   ],
   "texture": "512x512",
   "size": [
-   1.0,
-   0.844,
-   0.439
+   0.999,
+   0.836,
+   0.399
   ],
-  "bytes": 689552,
+  "bytes": 1746188,
   "source": "auger_crab",
-  "walkSpeed": 0.1244,
-  "stride": 0.057,
+  "walkSpeed": 0.1387,
+  "stride": 0.0636,
   "footSlip": 0.0,
-  "footLift": 0.0238
+  "footLift": 0.0232
  },
  "quake_crab": {
   "id": "C03",
   "name": "quake_crab",
   "kind": "crab",
   "view": "top",
-  "tris": 3000,
-  "budget": 3000,
-  "verts": 1560,
+  "tris": 6999,
+  "budget": 7000,
+  "verts": 3491,
   "bones": 35,
   "boneNames": [
    "root",
@@ -814,25 +1185,25 @@
   ],
   "texture": "512x512",
   "size": [
-   1.0,
-   0.84,
-   0.55
+   0.999,
+   0.803,
+   0.475
   ],
-  "bytes": 653848,
+  "bytes": 1637180,
   "source": "quake_crab",
-  "walkSpeed": 0.1247,
-  "stride": 0.0572,
+  "walkSpeed": 0.1209,
+  "stride": 0.0554,
   "footSlip": 0.0,
-  "footLift": 0.0223
+  "footLift": 0.0181
  },
  "prism_crab": {
   "id": "C04",
   "name": "prism_crab",
   "kind": "crab",
   "view": "top",
-  "tris": 3000,
-  "budget": 3000,
-  "verts": 1528,
+  "tris": 6999,
+  "budget": 7000,
+  "verts": 3504,
   "bones": 35,
   "boneNames": [
    "root",
@@ -881,25 +1252,25 @@
   ],
   "texture": "512x512",
   "size": [
-   1.001,
-   0.821,
-   0.521
+   0.999,
+   0.912,
+   0.484
   ],
-  "bytes": 674912,
+  "bytes": 1735440,
   "source": "prism_crab",
-  "walkSpeed": 0.1259,
-  "stride": 0.0577,
+  "walkSpeed": 0.1433,
+  "stride": 0.0657,
   "footSlip": 0.0,
-  "footLift": 0.0233
+  "footLift": 0.0256
  },
  "fortune_crab": {
   "id": "C05",
   "name": "fortune_crab",
   "kind": "crab",
   "view": "top",
-  "tris": 3000,
-  "budget": 3000,
-  "verts": 1514,
+  "tris": 7000,
+  "budget": 7000,
+  "verts": 3489,
   "bones": 35,
   "boneNames": [
    "root",
@@ -949,57 +1320,25 @@
   "texture": "512x512",
   "size": [
    0.997,
-   0.874,
-   0.372
+   0.872,
+   0.249
   ],
-  "bytes": 644112,
+  "bytes": 1706668,
   "source": "fortune_crab",
-  "walkSpeed": 0.1381,
-  "stride": 0.0633,
+  "walkSpeed": 0.1421,
+  "stride": 0.0651,
   "footSlip": 0.0,
-  "footLift": 0.0243
+  "footLift": 0.0231
  },
  "chain_lightning_needlefish": {
   "id": "S02",
   "name": "chain_lightning_needlefish",
   "kind": "eel",
   "view": "top",
-  "tris": 900,
-  "budget": 900,
-  "verts": 452,
-  "bones": 6,
-  "boneNames": [
-   "spine0",
-   "spine1",
-   "spine2",
-   "spine3",
-   "spine4",
-   "spine5"
-  ],
-  "actions": [
-   "die",
-   "hit",
-   "swim",
-   "turn"
-  ],
-  "texture": "256x256",
-  "size": [
-   0.882,
-   0.089,
-   0.172
-  ],
-  "bytes": 118344,
-  "source": "violet_needlefish"
- },
- "pearl_siren": {
-  "id": "B01",
-  "name": "pearl_siren",
-  "kind": "siren",
-  "view": "top",
-  "tris": 3998,
-  "budget": 4000,
-  "verts": 2001,
-  "bones": 7,
+  "tris": 4440,
+  "budget": 4500,
+  "verts": 2219,
+  "bones": 8,
   "boneNames": [
    "spine0",
    "spine1",
@@ -1007,7 +1346,68 @@
    "spine3",
    "spine4",
    "spine5",
-   "spine6"
+   "spine6",
+   "spine7"
+  ],
+  "actions": [
+   "die",
+   "hit",
+   "swim",
+   "turn"
+  ],
+  "texture": "512x512",
+  "size": [
+   0.9,
+   0.187,
+   0.25
+  ],
+  "bytes": 445764,
+  "source": "violet_needlefish",
+  "source3d": "meshy",
+  "meshyRotation": [
+   [
+    0,
+    -1,
+    0
+   ],
+   [
+    0,
+    0,
+    -1
+   ],
+   [
+    1,
+    0,
+    0
+   ]
+  ]
+ },
+ "pearl_siren": {
+  "id": "B01",
+  "name": "pearl_siren",
+  "kind": "mermaid",
+  "view": "front",
+  "tris": 12000,
+  "budget": 12000,
+  "verts": 5905,
+  "bones": 16,
+  "boneNames": [
+   "root",
+   "hips",
+   "spine",
+   "chest",
+   "neck",
+   "head",
+   "arm_L_0",
+   "arm_L_1",
+   "arm_R_0",
+   "arm_R_1",
+   "tail_0",
+   "tail_1",
+   "tail_2",
+   "tail_3",
+   "tail_4",
+   "tail_5"
   ],
   "actions": [
    "attack",
@@ -1020,21 +1420,39 @@
   "texture": "1024x1024",
   "size": [
    0.991,
-   0.253,
-   0.25
+   0.78,
+   0.559
   ],
-  "bytes": 856944,
-  "source": "pearl_siren"
+  "bytes": 1302568,
+  "source": "pearl_siren",
+  "source3d": "meshy",
+  "meshyRotation": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1
+   ]
+  ]
  },
  "elder_reefjaw": {
   "id": "B02",
   "name": "elder_reefjaw",
   "kind": "fish",
   "view": "top",
-  "tris": 4000,
-  "budget": 4000,
-  "verts": 2002,
-  "bones": 7,
+  "tris": 12000,
+  "budget": 12000,
+  "verts": 5927,
+  "bones": 9,
   "boneNames": [
    "spine0",
    "spine1",
@@ -1042,7 +1460,9 @@
    "spine3",
    "spine4",
    "spine5",
-   "spine6"
+   "spine6",
+   "pec_L",
+   "pec_R"
   ],
   "actions": [
    "attack",
@@ -1055,20 +1475,38 @@
   "texture": "1024x1024",
   "size": [
    0.99,
-   0.41,
-   0.222
+   0.419,
+   0.146
   ],
-  "bytes": 1094348,
-  "source": "elder_reefjaw"
+  "bytes": 1154416,
+  "source": "elder_reefjaw",
+  "source3d": "meshy",
+  "meshyRotation": [
+   [
+    0,
+    -1,
+    0
+   ],
+   [
+    0,
+    0,
+    -1
+   ],
+   [
+    1,
+    0,
+    0
+   ]
+  ]
  },
  "storm_serpent": {
   "id": "B03",
   "name": "storm_serpent",
   "kind": "serpent",
   "view": "top",
-  "tris": 4500,
-  "budget": 4500,
-  "verts": 2262,
+  "tris": 12000,
+  "budget": 12000,
+  "verts": 5991,
   "bones": 12,
   "boneNames": [
    "spine0",
@@ -1094,12 +1532,30 @@
   ],
   "texture": "1024x1024",
   "size": [
-   0.986,
-   0.2,
-   0.166
+   0.985,
+   0.193,
+   0.214
   ],
-  "bytes": 809672,
-  "source": "storm_serpent"
+  "bytes": 1193884,
+  "source": "storm_serpent",
+  "source3d": "meshy",
+  "meshyRotation": [
+   [
+    0,
+    -1,
+    0
+   ],
+   [
+    0,
+    0,
+    -1
+   ],
+   [
+    1,
+    0,
+    0
+   ]
+  ]
  },
  "phantom_galleon": {
   "id": "B04",
@@ -1229,9 +1685,9 @@
   "name": "count_nocturne",
   "kind": "upright",
   "view": "front",
-  "tris": 5000,
-  "budget": 5000,
-  "verts": 2522,
+  "tris": 12000,
+  "budget": 12000,
+  "verts": 5985,
   "bones": 28,
   "boneNames": [
    "root",
@@ -1274,12 +1730,30 @@
   ],
   "texture": "1024x1024",
   "size": [
-   1.125,
-   0.989,
-   0.46
+   1.126,
+   1.057,
+   0.524
   ],
-  "bytes": 1166928,
-  "source": "count_nocturne"
+  "bytes": 1254396,
+  "source": "count_nocturne",
+  "source3d": "meshy",
+  "meshyRotation": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1
+   ]
+  ]
  },
  "count_nocturne_coffin": {
   "id": "K01C",
@@ -1318,9 +1792,9 @@
   "name": "riff_reaper",
   "kind": "upright",
   "view": "front",
-  "tris": 5000,
-  "budget": 5000,
-  "verts": 2500,
+  "tris": 12000,
+  "budget": 12000,
+  "verts": 5848,
   "bones": 14,
   "boneNames": [
    "root",
@@ -1349,11 +1823,29 @@
   ],
   "texture": "1024x1024",
   "size": [
-   0.641,
+   0.627,
    0.997,
    0.265
   ],
-  "bytes": 649784,
-  "source": "riff_reaper"
+  "bytes": 1372864,
+  "source": "riff_reaper",
+  "source3d": "meshy",
+  "meshyRotation": [
+   [
+    1,
+    0,
+    0
+   ],
+   [
+    0,
+    1,
+    0
+   ],
+   [
+    0,
+    0,
+    1
+   ]
+  ]
  }
 }
