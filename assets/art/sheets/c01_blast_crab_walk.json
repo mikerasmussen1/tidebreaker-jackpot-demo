@@ -1,0 +1,102 @@
+{
+ "frames": {
+  "c01_blast_crab_walk_00": {
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 320,
+    "h": 320
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 320,
+    "h": 320
+   },
+   "sourceSize": {
+    "w": 320,
+    "h": 320
+   }
+  },
+  "c01_blast_crab_walk_01": {
+   "frame": {
+    "x": 320,
+    "y": 0,
+    "w": 320,
+    "h": 320
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 320,
+    "h": 320
+   },
+   "sourceSize": {
+    "w": 320,
+    "h": 320
+   }
+  },
+  "c01_blast_crab_walk_02": {
+   "frame": {
+    "x": 640,
+    "y": 0,
+    "w": 320,
+    "h": 320
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 320,
+    "h": 320
+   },
+   "sourceSize": {
+    "w": 320,
+    "h": 320
+   }
+  },
+  "c01_blast_crab_walk_03": {
+   "frame": {
+    "x": 960,
+    "y": 0,
+    "w": 320,
+    "h": 320
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 320,
+    "h": 320
+   },
+   "sourceSize": {
+    "w": 320,
+    "h": 320
+   }
+  }
+ },
+ "meta": {
+  "image": "c01_blast_crab_walk.png",
+  "size": {
+   "w": 1280,
+   "h": 320
+  },
+  "format": "RGBA8888",
+  "scale": "1",
+  "fps": 10,
+  "animations": {
+   "c01_blast_crab_walk": [
+    "c01_blast_crab_walk_00",
+    "c01_blast_crab_walk_01",
+    "c01_blast_crab_walk_02",
+    "c01_blast_crab_walk_03"
+   ]
+  }
+ }
+}

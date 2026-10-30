@@ -1,0 +1,186 @@
+{
+ "frames": {
+  "f06_lemon_frogfish_swim_00": {
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 176,
+    "h": 176
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 176,
+    "h": 176
+   },
+   "sourceSize": {
+    "w": 176,
+    "h": 176
+   }
+  },
+  "f06_lemon_frogfish_swim_01": {
+   "frame": {
+    "x": 176,
+    "y": 0,
+    "w": 176,
+    "h": 176
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 176,
+    "h": 176
+   },
+   "sourceSize": {
+    "w": 176,
+    "h": 176
+   }
+  },
+  "f06_lemon_frogfish_swim_02": {
+   "frame": {
+    "x": 352,
+    "y": 0,
+    "w": 176,
+    "h": 176
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 176,
+    "h": 176
+   },
+   "sourceSize": {
+    "w": 176,
+    "h": 176
+   }
+  },
+  "f06_lemon_frogfish_swim_03": {
+   "frame": {
+    "x": 528,
+    "y": 0,
+    "w": 176,
+    "h": 176
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 176,
+    "h": 176
+   },
+   "sourceSize": {
+    "w": 176,
+    "h": 176
+   }
+  },
+  "f06_lemon_frogfish_swim_04": {
+   "frame": {
+    "x": 704,
+    "y": 0,
+    "w": 176,
+    "h": 176
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 176,
+    "h": 176
+   },
+   "sourceSize": {
+    "w": 176,
+    "h": 176
+   }
+  },
+  "f06_lemon_frogfish_swim_05": {
+   "frame": {
+    "x": 880,
+    "y": 0,
+    "w": 176,
+    "h": 176
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 176,
+    "h": 176
+   },
+   "sourceSize": {
+    "w": 176,
+    "h": 176
+   }
+  },
+  "f06_lemon_frogfish_swim_06": {
+   "frame": {
+    "x": 1056,
+    "y": 0,
+    "w": 176,
+    "h": 176
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 176,
+    "h": 176
+   },
+   "sourceSize": {
+    "w": 176,
+    "h": 176
+   }
+  },
+  "f06_lemon_frogfish_swim_07": {
+   "frame": {
+    "x": 1232,
+    "y": 0,
+    "w": 176,
+    "h": 176
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 176,
+    "h": 176
+   },
+   "sourceSize": {
+    "w": 176,
+    "h": 176
+   }
+  }
+ },
+ "meta": {
+  "image": "f06_lemon_frogfish_swim.png",
+  "size": {
+   "w": 1408,
+   "h": 176
+  },
+  "format": "RGBA8888",
+  "scale": "1",
+  "fps": 12,
+  "animations": {
+   "f06_lemon_frogfish_swim": [
+    "f06_lemon_frogfish_swim_00",
+    "f06_lemon_frogfish_swim_01",
+    "f06_lemon_frogfish_swim_02",
+    "f06_lemon_frogfish_swim_03",
+    "f06_lemon_frogfish_swim_04",
+    "f06_lemon_frogfish_swim_05",
+    "f06_lemon_frogfish_swim_06",
+    "f06_lemon_frogfish_swim_07"
+   ]
+  }
+ }
+}

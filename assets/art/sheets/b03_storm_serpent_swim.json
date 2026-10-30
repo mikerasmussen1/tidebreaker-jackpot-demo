@@ -1,0 +1,186 @@
+{
+ "frames": {
+  "b03_storm_serpent_swim_00": {
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 768,
+    "h": 320
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 768,
+    "h": 320
+   },
+   "sourceSize": {
+    "w": 768,
+    "h": 320
+   }
+  },
+  "b03_storm_serpent_swim_01": {
+   "frame": {
+    "x": 768,
+    "y": 0,
+    "w": 768,
+    "h": 320
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 768,
+    "h": 320
+   },
+   "sourceSize": {
+    "w": 768,
+    "h": 320
+   }
+  },
+  "b03_storm_serpent_swim_02": {
+   "frame": {
+    "x": 1536,
+    "y": 0,
+    "w": 768,
+    "h": 320
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 768,
+    "h": 320
+   },
+   "sourceSize": {
+    "w": 768,
+    "h": 320
+   }
+  },
+  "b03_storm_serpent_swim_03": {
+   "frame": {
+    "x": 2304,
+    "y": 0,
+    "w": 768,
+    "h": 320
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 768,
+    "h": 320
+   },
+   "sourceSize": {
+    "w": 768,
+    "h": 320
+   }
+  },
+  "b03_storm_serpent_swim_04": {
+   "frame": {
+    "x": 3072,
+    "y": 0,
+    "w": 768,
+    "h": 320
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 768,
+    "h": 320
+   },
+   "sourceSize": {
+    "w": 768,
+    "h": 320
+   }
+  },
+  "b03_storm_serpent_swim_05": {
+   "frame": {
+    "x": 3840,
+    "y": 0,
+    "w": 768,
+    "h": 320
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 768,
+    "h": 320
+   },
+   "sourceSize": {
+    "w": 768,
+    "h": 320
+   }
+  },
+  "b03_storm_serpent_swim_06": {
+   "frame": {
+    "x": 4608,
+    "y": 0,
+    "w": 768,
+    "h": 320
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 768,
+    "h": 320
+   },
+   "sourceSize": {
+    "w": 768,
+    "h": 320
+   }
+  },
+  "b03_storm_serpent_swim_07": {
+   "frame": {
+    "x": 5376,
+    "y": 0,
+    "w": 768,
+    "h": 320
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 768,
+    "h": 320
+   },
+   "sourceSize": {
+    "w": 768,
+    "h": 320
+   }
+  }
+ },
+ "meta": {
+  "image": "b03_storm_serpent_swim.png",
+  "size": {
+   "w": 6144,
+   "h": 320
+  },
+  "format": "RGBA8888",
+  "scale": "1",
+  "fps": 12,
+  "animations": {
+   "b03_storm_serpent_swim": [
+    "b03_storm_serpent_swim_00",
+    "b03_storm_serpent_swim_01",
+    "b03_storm_serpent_swim_02",
+    "b03_storm_serpent_swim_03",
+    "b03_storm_serpent_swim_04",
+    "b03_storm_serpent_swim_05",
+    "b03_storm_serpent_swim_06",
+    "b03_storm_serpent_swim_07"
+   ]
+  }
+ }
+}

@@ -1,0 +1,186 @@
+{
+ "frames": {
+  "k02_riff_reaper_idle_00": {
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 512,
+    "h": 640
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 512,
+    "h": 640
+   },
+   "sourceSize": {
+    "w": 512,
+    "h": 640
+   }
+  },
+  "k02_riff_reaper_idle_01": {
+   "frame": {
+    "x": 512,
+    "y": 0,
+    "w": 512,
+    "h": 640
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 512,
+    "h": 640
+   },
+   "sourceSize": {
+    "w": 512,
+    "h": 640
+   }
+  },
+  "k02_riff_reaper_idle_02": {
+   "frame": {
+    "x": 1024,
+    "y": 0,
+    "w": 512,
+    "h": 640
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 512,
+    "h": 640
+   },
+   "sourceSize": {
+    "w": 512,
+    "h": 640
+   }
+  },
+  "k02_riff_reaper_idle_03": {
+   "frame": {
+    "x": 1536,
+    "y": 0,
+    "w": 512,
+    "h": 640
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 512,
+    "h": 640
+   },
+   "sourceSize": {
+    "w": 512,
+    "h": 640
+   }
+  },
+  "k02_riff_reaper_idle_04": {
+   "frame": {
+    "x": 2048,
+    "y": 0,
+    "w": 512,
+    "h": 640
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 512,
+    "h": 640
+   },
+   "sourceSize": {
+    "w": 512,
+    "h": 640
+   }
+  },
+  "k02_riff_reaper_idle_05": {
+   "frame": {
+    "x": 2560,
+    "y": 0,
+    "w": 512,
+    "h": 640
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 512,
+    "h": 640
+   },
+   "sourceSize": {
+    "w": 512,
+    "h": 640
+   }
+  },
+  "k02_riff_reaper_idle_06": {
+   "frame": {
+    "x": 3072,
+    "y": 0,
+    "w": 512,
+    "h": 640
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 512,
+    "h": 640
+   },
+   "sourceSize": {
+    "w": 512,
+    "h": 640
+   }
+  },
+  "k02_riff_reaper_idle_07": {
+   "frame": {
+    "x": 3584,
+    "y": 0,
+    "w": 512,
+    "h": 640
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 512,
+    "h": 640
+   },
+   "sourceSize": {
+    "w": 512,
+    "h": 640
+   }
+  }
+ },
+ "meta": {
+  "image": "k02_riff_reaper_idle.png",
+  "size": {
+   "w": 4096,
+   "h": 640
+  },
+  "format": "RGBA8888",
+  "scale": "1",
+  "fps": 10,
+  "animations": {
+   "k02_riff_reaper_idle": [
+    "k02_riff_reaper_idle_00",
+    "k02_riff_reaper_idle_01",
+    "k02_riff_reaper_idle_02",
+    "k02_riff_reaper_idle_03",
+    "k02_riff_reaper_idle_04",
+    "k02_riff_reaper_idle_05",
+    "k02_riff_reaper_idle_06",
+    "k02_riff_reaper_idle_07"
+   ]
+  }
+ }
+}

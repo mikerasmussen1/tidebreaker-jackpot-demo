@@ -1,0 +1,186 @@
+{
+ "frames": {
+  "f10_coral_octopus_swim_00": {
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 224,
+    "h": 224
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 224,
+    "h": 224
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 224
+   }
+  },
+  "f10_coral_octopus_swim_01": {
+   "frame": {
+    "x": 224,
+    "y": 0,
+    "w": 224,
+    "h": 224
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 224,
+    "h": 224
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 224
+   }
+  },
+  "f10_coral_octopus_swim_02": {
+   "frame": {
+    "x": 448,
+    "y": 0,
+    "w": 224,
+    "h": 224
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 224,
+    "h": 224
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 224
+   }
+  },
+  "f10_coral_octopus_swim_03": {
+   "frame": {
+    "x": 672,
+    "y": 0,
+    "w": 224,
+    "h": 224
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 224,
+    "h": 224
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 224
+   }
+  },
+  "f10_coral_octopus_swim_04": {
+   "frame": {
+    "x": 896,
+    "y": 0,
+    "w": 224,
+    "h": 224
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 224,
+    "h": 224
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 224
+   }
+  },
+  "f10_coral_octopus_swim_05": {
+   "frame": {
+    "x": 1120,
+    "y": 0,
+    "w": 224,
+    "h": 224
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 224,
+    "h": 224
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 224
+   }
+  },
+  "f10_coral_octopus_swim_06": {
+   "frame": {
+    "x": 1344,
+    "y": 0,
+    "w": 224,
+    "h": 224
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 224,
+    "h": 224
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 224
+   }
+  },
+  "f10_coral_octopus_swim_07": {
+   "frame": {
+    "x": 1568,
+    "y": 0,
+    "w": 224,
+    "h": 224
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 224,
+    "h": 224
+   },
+   "sourceSize": {
+    "w": 224,
+    "h": 224
+   }
+  }
+ },
+ "meta": {
+  "image": "f10_coral_octopus_swim.png",
+  "size": {
+   "w": 1792,
+   "h": 224
+  },
+  "format": "RGBA8888",
+  "scale": "1",
+  "fps": 12,
+  "animations": {
+   "f10_coral_octopus_swim": [
+    "f10_coral_octopus_swim_00",
+    "f10_coral_octopus_swim_01",
+    "f10_coral_octopus_swim_02",
+    "f10_coral_octopus_swim_03",
+    "f10_coral_octopus_swim_04",
+    "f10_coral_octopus_swim_05",
+    "f10_coral_octopus_swim_06",
+    "f10_coral_octopus_swim_07"
+   ]
+  }
+ }
+}

@@ -1,0 +1,186 @@
+{
+ "frames": {
+  "f03_sunstripe_darter_swim_00": {
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 144,
+    "h": 144
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 144,
+    "h": 144
+   },
+   "sourceSize": {
+    "w": 144,
+    "h": 144
+   }
+  },
+  "f03_sunstripe_darter_swim_01": {
+   "frame": {
+    "x": 144,
+    "y": 0,
+    "w": 144,
+    "h": 144
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 144,
+    "h": 144
+   },
+   "sourceSize": {
+    "w": 144,
+    "h": 144
+   }
+  },
+  "f03_sunstripe_darter_swim_02": {
+   "frame": {
+    "x": 288,
+    "y": 0,
+    "w": 144,
+    "h": 144
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 144,
+    "h": 144
+   },
+   "sourceSize": {
+    "w": 144,
+    "h": 144
+   }
+  },
+  "f03_sunstripe_darter_swim_03": {
+   "frame": {
+    "x": 432,
+    "y": 0,
+    "w": 144,
+    "h": 144
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 144,
+    "h": 144
+   },
+   "sourceSize": {
+    "w": 144,
+    "h": 144
+   }
+  },
+  "f03_sunstripe_darter_swim_04": {
+   "frame": {
+    "x": 576,
+    "y": 0,
+    "w": 144,
+    "h": 144
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 144,
+    "h": 144
+   },
+   "sourceSize": {
+    "w": 144,
+    "h": 144
+   }
+  },
+  "f03_sunstripe_darter_swim_05": {
+   "frame": {
+    "x": 720,
+    "y": 0,
+    "w": 144,
+    "h": 144
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 144,
+    "h": 144
+   },
+   "sourceSize": {
+    "w": 144,
+    "h": 144
+   }
+  },
+  "f03_sunstripe_darter_swim_06": {
+   "frame": {
+    "x": 864,
+    "y": 0,
+    "w": 144,
+    "h": 144
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 144,
+    "h": 144
+   },
+   "sourceSize": {
+    "w": 144,
+    "h": 144
+   }
+  },
+  "f03_sunstripe_darter_swim_07": {
+   "frame": {
+    "x": 1008,
+    "y": 0,
+    "w": 144,
+    "h": 144
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 144,
+    "h": 144
+   },
+   "sourceSize": {
+    "w": 144,
+    "h": 144
+   }
+  }
+ },
+ "meta": {
+  "image": "f03_sunstripe_darter_swim.png",
+  "size": {
+   "w": 1152,
+   "h": 144
+  },
+  "format": "RGBA8888",
+  "scale": "1",
+  "fps": 12,
+  "animations": {
+   "f03_sunstripe_darter_swim": [
+    "f03_sunstripe_darter_swim_00",
+    "f03_sunstripe_darter_swim_01",
+    "f03_sunstripe_darter_swim_02",
+    "f03_sunstripe_darter_swim_03",
+    "f03_sunstripe_darter_swim_04",
+    "f03_sunstripe_darter_swim_05",
+    "f03_sunstripe_darter_swim_06",
+    "f03_sunstripe_darter_swim_07"
+   ]
+  }
+ }
+}

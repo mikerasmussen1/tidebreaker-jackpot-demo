@@ -1,0 +1,186 @@
+{
+ "frames": {
+  "g06_sovereign_gold_whale_swim_00": {
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 576,
+    "h": 288
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 576,
+    "h": 288
+   },
+   "sourceSize": {
+    "w": 576,
+    "h": 288
+   }
+  },
+  "g06_sovereign_gold_whale_swim_01": {
+   "frame": {
+    "x": 576,
+    "y": 0,
+    "w": 576,
+    "h": 288
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 576,
+    "h": 288
+   },
+   "sourceSize": {
+    "w": 576,
+    "h": 288
+   }
+  },
+  "g06_sovereign_gold_whale_swim_02": {
+   "frame": {
+    "x": 1152,
+    "y": 0,
+    "w": 576,
+    "h": 288
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 576,
+    "h": 288
+   },
+   "sourceSize": {
+    "w": 576,
+    "h": 288
+   }
+  },
+  "g06_sovereign_gold_whale_swim_03": {
+   "frame": {
+    "x": 1728,
+    "y": 0,
+    "w": 576,
+    "h": 288
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 576,
+    "h": 288
+   },
+   "sourceSize": {
+    "w": 576,
+    "h": 288
+   }
+  },
+  "g06_sovereign_gold_whale_swim_04": {
+   "frame": {
+    "x": 2304,
+    "y": 0,
+    "w": 576,
+    "h": 288
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 576,
+    "h": 288
+   },
+   "sourceSize": {
+    "w": 576,
+    "h": 288
+   }
+  },
+  "g06_sovereign_gold_whale_swim_05": {
+   "frame": {
+    "x": 2880,
+    "y": 0,
+    "w": 576,
+    "h": 288
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 576,
+    "h": 288
+   },
+   "sourceSize": {
+    "w": 576,
+    "h": 288
+   }
+  },
+  "g06_sovereign_gold_whale_swim_06": {
+   "frame": {
+    "x": 3456,
+    "y": 0,
+    "w": 576,
+    "h": 288
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 576,
+    "h": 288
+   },
+   "sourceSize": {
+    "w": 576,
+    "h": 288
+   }
+  },
+  "g06_sovereign_gold_whale_swim_07": {
+   "frame": {
+    "x": 4032,
+    "y": 0,
+    "w": 576,
+    "h": 288
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 576,
+    "h": 288
+   },
+   "sourceSize": {
+    "w": 576,
+    "h": 288
+   }
+  }
+ },
+ "meta": {
+  "image": "g06_sovereign_gold_whale_swim.png",
+  "size": {
+   "w": 4608,
+   "h": 288
+  },
+  "format": "RGBA8888",
+  "scale": "1",
+  "fps": 12,
+  "animations": {
+   "g06_sovereign_gold_whale_swim": [
+    "g06_sovereign_gold_whale_swim_00",
+    "g06_sovereign_gold_whale_swim_01",
+    "g06_sovereign_gold_whale_swim_02",
+    "g06_sovereign_gold_whale_swim_03",
+    "g06_sovereign_gold_whale_swim_04",
+    "g06_sovereign_gold_whale_swim_05",
+    "g06_sovereign_gold_whale_swim_06",
+    "g06_sovereign_gold_whale_swim_07"
+   ]
+  }
+ }
+}

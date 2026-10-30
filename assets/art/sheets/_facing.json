@@ -1,0 +1,110 @@
+{
+ "F01": {
+  "file": "fish/f01_wingfin_minnow.png",
+  "facing": "right"
+ },
+ "F02": {
+  "file": "fish/f02_ember_clownfish.png",
+  "facing": "right"
+ },
+ "F03": {
+  "file": "fish/f03_sunstripe_darter.png",
+  "facing": "right"
+ },
+ "F04": {
+  "file": "fish/f04_bubblegum_puffer.png",
+  "facing": "right"
+ },
+ "F05": {
+  "file": "fish/f05_orchid_lionfish.png",
+  "facing": "left"
+ },
+ "F06": {
+  "file": "fish/f06_lemon_frogfish.png",
+  "facing": "right"
+ },
+ "F07": {
+  "file": "fish/f07_ruby_lobster.png",
+  "facing": "right"
+ },
+ "F08": {
+  "file": "fish/f08_violet_needlefish.png",
+  "facing": "right"
+ },
+ "F09": {
+  "file": "fish/f09_jade_turtle.png",
+  "facing": "right"
+ },
+ "F10": {
+  "file": "fish/f10_coral_octopus.png",
+  "facing": "right"
+ },
+ "F11": {
+  "file": "fish/f11_glowlamp_angler.png",
+  "facing": "right"
+ },
+ "F12": {
+  "file": "fish/f12_azure_manta.png",
+  "facing": "right"
+ },
+ "G01": {
+  "file": "fish/g01_giant_clownfish.png",
+  "facing": "right"
+ },
+ "G02": {
+  "file": "fish/g02_giant_bannerfish.png",
+  "facing": "right"
+ },
+ "G03": {
+  "file": "fish/g03_giant_fugu.png",
+  "facing": "right"
+ },
+ "G04": {
+  "file": "fish/g04_tidal_shark.png",
+  "facing": "right"
+ },
+ "G05": {
+  "file": "fish/g05_ember_orca.png",
+  "facing": "left"
+ },
+ "G06": {
+  "file": "fish/g06_sovereign_gold_whale.png",
+  "facing": "right"
+ },
+ "C01": {
+  "file": "fish/c01_blast_crab.png",
+  "facing": "right"
+ },
+ "C02": {
+  "file": "fish/c02_auger_crab.png",
+  "facing": "right"
+ },
+ "C03": {
+  "file": "fish/c03_quake_crab.png",
+  "facing": "right"
+ },
+ "C04": {
+  "file": "fish/c04_prism_crab.png",
+  "facing": "right"
+ },
+ "C05": {
+  "file": "fish/c05_fortune_crab.png",
+  "facing": "right"
+ },
+ "B01": {
+  "file": "boss/b01_pearl_siren.png",
+  "facing": "right"
+ },
+ "B02": {
+  "file": "boss/b02_elder_reefjaw.png",
+  "facing": "right"
+ },
+ "B03": {
+  "file": "boss/b03_storm_serpent.png",
+  "facing": "right"
+ },
+ "B04": {
+  "file": "boss/b04_phantom_galleon.png",
+  "facing": "right"
+ }
+}

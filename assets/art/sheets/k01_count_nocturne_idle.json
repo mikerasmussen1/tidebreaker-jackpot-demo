@@ -1,0 +1,186 @@
+{
+ "frames": {
+  "k01_count_nocturne_idle_00": {
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 512,
+    "h": 640
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 512,
+    "h": 640
+   },
+   "sourceSize": {
+    "w": 512,
+    "h": 640
+   }
+  },
+  "k01_count_nocturne_idle_01": {
+   "frame": {
+    "x": 512,
+    "y": 0,
+    "w": 512,
+    "h": 640
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 512,
+    "h": 640
+   },
+   "sourceSize": {
+    "w": 512,
+    "h": 640
+   }
+  },
+  "k01_count_nocturne_idle_02": {
+   "frame": {
+    "x": 1024,
+    "y": 0,
+    "w": 512,
+    "h": 640
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 512,
+    "h": 640
+   },
+   "sourceSize": {
+    "w": 512,
+    "h": 640
+   }
+  },
+  "k01_count_nocturne_idle_03": {
+   "frame": {
+    "x": 1536,
+    "y": 0,
+    "w": 512,
+    "h": 640
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 512,
+    "h": 640
+   },
+   "sourceSize": {
+    "w": 512,
+    "h": 640
+   }
+  },
+  "k01_count_nocturne_idle_04": {
+   "frame": {
+    "x": 2048,
+    "y": 0,
+    "w": 512,
+    "h": 640
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 512,
+    "h": 640
+   },
+   "sourceSize": {
+    "w": 512,
+    "h": 640
+   }
+  },
+  "k01_count_nocturne_idle_05": {
+   "frame": {
+    "x": 2560,
+    "y": 0,
+    "w": 512,
+    "h": 640
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 512,
+    "h": 640
+   },
+   "sourceSize": {
+    "w": 512,
+    "h": 640
+   }
+  },
+  "k01_count_nocturne_idle_06": {
+   "frame": {
+    "x": 3072,
+    "y": 0,
+    "w": 512,
+    "h": 640
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 512,
+    "h": 640
+   },
+   "sourceSize": {
+    "w": 512,
+    "h": 640
+   }
+  },
+  "k01_count_nocturne_idle_07": {
+   "frame": {
+    "x": 3584,
+    "y": 0,
+    "w": 512,
+    "h": 640
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 512,
+    "h": 640
+   },
+   "sourceSize": {
+    "w": 512,
+    "h": 640
+   }
+  }
+ },
+ "meta": {
+  "image": "k01_count_nocturne_idle.png",
+  "size": {
+   "w": 4096,
+   "h": 640
+  },
+  "format": "RGBA8888",
+  "scale": "1",
+  "fps": 10,
+  "animations": {
+   "k01_count_nocturne_idle": [
+    "k01_count_nocturne_idle_00",
+    "k01_count_nocturne_idle_01",
+    "k01_count_nocturne_idle_02",
+    "k01_count_nocturne_idle_03",
+    "k01_count_nocturne_idle_04",
+    "k01_count_nocturne_idle_05",
+    "k01_count_nocturne_idle_06",
+    "k01_count_nocturne_idle_07"
+   ]
+  }
+ }
+}

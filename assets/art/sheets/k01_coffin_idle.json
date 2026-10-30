@@ -1,0 +1,186 @@
+{
+ "frames": {
+  "k01_coffin_idle_00": {
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 640,
+    "h": 320
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 640,
+    "h": 320
+   },
+   "sourceSize": {
+    "w": 640,
+    "h": 320
+   }
+  },
+  "k01_coffin_idle_01": {
+   "frame": {
+    "x": 640,
+    "y": 0,
+    "w": 640,
+    "h": 320
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 640,
+    "h": 320
+   },
+   "sourceSize": {
+    "w": 640,
+    "h": 320
+   }
+  },
+  "k01_coffin_idle_02": {
+   "frame": {
+    "x": 1280,
+    "y": 0,
+    "w": 640,
+    "h": 320
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 640,
+    "h": 320
+   },
+   "sourceSize": {
+    "w": 640,
+    "h": 320
+   }
+  },
+  "k01_coffin_idle_03": {
+   "frame": {
+    "x": 1920,
+    "y": 0,
+    "w": 640,
+    "h": 320
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 640,
+    "h": 320
+   },
+   "sourceSize": {
+    "w": 640,
+    "h": 320
+   }
+  },
+  "k01_coffin_idle_04": {
+   "frame": {
+    "x": 2560,
+    "y": 0,
+    "w": 640,
+    "h": 320
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 640,
+    "h": 320
+   },
+   "sourceSize": {
+    "w": 640,
+    "h": 320
+   }
+  },
+  "k01_coffin_idle_05": {
+   "frame": {
+    "x": 3200,
+    "y": 0,
+    "w": 640,
+    "h": 320
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 640,
+    "h": 320
+   },
+   "sourceSize": {
+    "w": 640,
+    "h": 320
+   }
+  },
+  "k01_coffin_idle_06": {
+   "frame": {
+    "x": 3840,
+    "y": 0,
+    "w": 640,
+    "h": 320
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 640,
+    "h": 320
+   },
+   "sourceSize": {
+    "w": 640,
+    "h": 320
+   }
+  },
+  "k01_coffin_idle_07": {
+   "frame": {
+    "x": 4480,
+    "y": 0,
+    "w": 640,
+    "h": 320
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 640,
+    "h": 320
+   },
+   "sourceSize": {
+    "w": 640,
+    "h": 320
+   }
+  }
+ },
+ "meta": {
+  "image": "k01_coffin_idle.png",
+  "size": {
+   "w": 5120,
+   "h": 320
+  },
+  "format": "RGBA8888",
+  "scale": "1",
+  "fps": 10,
+  "animations": {
+   "k01_coffin_idle": [
+    "k01_coffin_idle_00",
+    "k01_coffin_idle_01",
+    "k01_coffin_idle_02",
+    "k01_coffin_idle_03",
+    "k01_coffin_idle_04",
+    "k01_coffin_idle_05",
+    "k01_coffin_idle_06",
+    "k01_coffin_idle_07"
+   ]
+  }
+ }
+}

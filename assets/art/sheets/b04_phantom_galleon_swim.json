@@ -1,0 +1,186 @@
+{
+ "frames": {
+  "b04_phantom_galleon_swim_00": {
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 640,
+    "h": 400
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 640,
+    "h": 400
+   },
+   "sourceSize": {
+    "w": 640,
+    "h": 400
+   }
+  },
+  "b04_phantom_galleon_swim_01": {
+   "frame": {
+    "x": 640,
+    "y": 0,
+    "w": 640,
+    "h": 400
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 640,
+    "h": 400
+   },
+   "sourceSize": {
+    "w": 640,
+    "h": 400
+   }
+  },
+  "b04_phantom_galleon_swim_02": {
+   "frame": {
+    "x": 1280,
+    "y": 0,
+    "w": 640,
+    "h": 400
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 640,
+    "h": 400
+   },
+   "sourceSize": {
+    "w": 640,
+    "h": 400
+   }
+  },
+  "b04_phantom_galleon_swim_03": {
+   "frame": {
+    "x": 1920,
+    "y": 0,
+    "w": 640,
+    "h": 400
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 640,
+    "h": 400
+   },
+   "sourceSize": {
+    "w": 640,
+    "h": 400
+   }
+  },
+  "b04_phantom_galleon_swim_04": {
+   "frame": {
+    "x": 2560,
+    "y": 0,
+    "w": 640,
+    "h": 400
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 640,
+    "h": 400
+   },
+   "sourceSize": {
+    "w": 640,
+    "h": 400
+   }
+  },
+  "b04_phantom_galleon_swim_05": {
+   "frame": {
+    "x": 3200,
+    "y": 0,
+    "w": 640,
+    "h": 400
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 640,
+    "h": 400
+   },
+   "sourceSize": {
+    "w": 640,
+    "h": 400
+   }
+  },
+  "b04_phantom_galleon_swim_06": {
+   "frame": {
+    "x": 3840,
+    "y": 0,
+    "w": 640,
+    "h": 400
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 640,
+    "h": 400
+   },
+   "sourceSize": {
+    "w": 640,
+    "h": 400
+   }
+  },
+  "b04_phantom_galleon_swim_07": {
+   "frame": {
+    "x": 4480,
+    "y": 0,
+    "w": 640,
+    "h": 400
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 640,
+    "h": 400
+   },
+   "sourceSize": {
+    "w": 640,
+    "h": 400
+   }
+  }
+ },
+ "meta": {
+  "image": "b04_phantom_galleon_swim.png",
+  "size": {
+   "w": 5120,
+   "h": 400
+  },
+  "format": "RGBA8888",
+  "scale": "1",
+  "fps": 12,
+  "animations": {
+   "b04_phantom_galleon_swim": [
+    "b04_phantom_galleon_swim_00",
+    "b04_phantom_galleon_swim_01",
+    "b04_phantom_galleon_swim_02",
+    "b04_phantom_galleon_swim_03",
+    "b04_phantom_galleon_swim_04",
+    "b04_phantom_galleon_swim_05",
+    "b04_phantom_galleon_swim_06",
+    "b04_phantom_galleon_swim_07"
+   ]
+  }
+ }
+}

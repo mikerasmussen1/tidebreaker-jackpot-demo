@@ -1,0 +1,186 @@
+{
+ "frames": {
+  "b02_elder_reefjaw_swim_00": {
+   "frame": {
+    "x": 0,
+    "y": 0,
+    "w": 640,
+    "h": 320
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 640,
+    "h": 320
+   },
+   "sourceSize": {
+    "w": 640,
+    "h": 320
+   }
+  },
+  "b02_elder_reefjaw_swim_01": {
+   "frame": {
+    "x": 640,
+    "y": 0,
+    "w": 640,
+    "h": 320
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 640,
+    "h": 320
+   },
+   "sourceSize": {
+    "w": 640,
+    "h": 320
+   }
+  },
+  "b02_elder_reefjaw_swim_02": {
+   "frame": {
+    "x": 1280,
+    "y": 0,
+    "w": 640,
+    "h": 320
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 640,
+    "h": 320
+   },
+   "sourceSize": {
+    "w": 640,
+    "h": 320
+   }
+  },
+  "b02_elder_reefjaw_swim_03": {
+   "frame": {
+    "x": 1920,
+    "y": 0,
+    "w": 640,
+    "h": 320
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 640,
+    "h": 320
+   },
+   "sourceSize": {
+    "w": 640,
+    "h": 320
+   }
+  },
+  "b02_elder_reefjaw_swim_04": {
+   "frame": {
+    "x": 2560,
+    "y": 0,
+    "w": 640,
+    "h": 320
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 640,
+    "h": 320
+   },
+   "sourceSize": {
+    "w": 640,
+    "h": 320
+   }
+  },
+  "b02_elder_reefjaw_swim_05": {
+   "frame": {
+    "x": 3200,
+    "y": 0,
+    "w": 640,
+    "h": 320
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 640,
+    "h": 320
+   },
+   "sourceSize": {
+    "w": 640,
+    "h": 320
+   }
+  },
+  "b02_elder_reefjaw_swim_06": {
+   "frame": {
+    "x": 3840,
+    "y": 0,
+    "w": 640,
+    "h": 320
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 640,
+    "h": 320
+   },
+   "sourceSize": {
+    "w": 640,
+    "h": 320
+   }
+  },
+  "b02_elder_reefjaw_swim_07": {
+   "frame": {
+    "x": 4480,
+    "y": 0,
+    "w": 640,
+    "h": 320
+   },
+   "rotated": false,
+   "trimmed": false,
+   "spriteSourceSize": {
+    "x": 0,
+    "y": 0,
+    "w": 640,
+    "h": 320
+   },
+   "sourceSize": {
+    "w": 640,
+    "h": 320
+   }
+  }
+ },
+ "meta": {
+  "image": "b02_elder_reefjaw_swim.png",
+  "size": {
+   "w": 5120,
+   "h": 320
+  },
+  "format": "RGBA8888",
+  "scale": "1",
+  "fps": 12,
+  "animations": {
+   "b02_elder_reefjaw_swim": [
+    "b02_elder_reefjaw_swim_00",
+    "b02_elder_reefjaw_swim_01",
+    "b02_elder_reefjaw_swim_02",
+    "b02_elder_reefjaw_swim_03",
+    "b02_elder_reefjaw_swim_04",
+    "b02_elder_reefjaw_swim_05",
+    "b02_elder_reefjaw_swim_06",
+    "b02_elder_reefjaw_swim_07"
+   ]
+  }
+ }
+}

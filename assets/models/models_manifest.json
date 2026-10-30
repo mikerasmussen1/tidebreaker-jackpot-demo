@@ -1,0 +1,1359 @@
+{
+ "wingfin_minnow": {
+  "id": "F01",
+  "name": "wingfin_minnow",
+  "kind": "fish",
+  "view": "top",
+  "tris": 700,
+  "budget": 700,
+  "verts": 358,
+  "bones": 4,
+  "boneNames": [
+   "spine0",
+   "spine1",
+   "spine2",
+   "spine3"
+  ],
+  "actions": [
+   "die",
+   "hit",
+   "swim",
+   "turn"
+  ],
+  "texture": "256x256",
+  "size": [
+   0.992,
+   0.841,
+   0.366
+  ],
+  "bytes": 117220,
+  "source": "wingfin_minnow"
+ },
+ "ember_clownfish": {
+  "id": "F02",
+  "name": "ember_clownfish",
+  "kind": "fish",
+  "view": "top",
+  "tris": 700,
+  "budget": 700,
+  "verts": 350,
+  "bones": 4,
+  "boneNames": [
+   "spine0",
+   "spine1",
+   "spine2",
+   "spine3"
+  ],
+  "actions": [
+   "die",
+   "hit",
+   "swim",
+   "turn"
+  ],
+  "texture": "256x256",
+  "size": [
+   0.999,
+   0.438,
+   0.287
+  ],
+  "bytes": 133380,
+  "source": "ember_clownfish"
+ },
+ "sunstripe_darter": {
+  "id": "F03",
+  "name": "sunstripe_darter",
+  "kind": "fish",
+  "view": "top",
+  "tris": 700,
+  "budget": 700,
+  "verts": 352,
+  "bones": 4,
+  "boneNames": [
+   "spine0",
+   "spine1",
+   "spine2",
+   "spine3"
+  ],
+  "actions": [
+   "die",
+   "hit",
+   "swim",
+   "turn"
+  ],
+  "texture": "256x256",
+  "size": [
+   0.883,
+   0.514,
+   0.241
+  ],
+  "bytes": 120780,
+  "source": "sunstripe_darter"
+ },
+ "bubblegum_puffer": {
+  "id": "F04",
+  "name": "bubblegum_puffer",
+  "kind": "puffer",
+  "view": "top",
+  "tris": 900,
+  "budget": 900,
+  "verts": 452,
+  "bones": 3,
+  "boneNames": [
+   "spine0",
+   "spine1",
+   "spine2"
+  ],
+  "actions": [
+   "die",
+   "hit",
+   "swim",
+   "turn"
+  ],
+  "texture": "256x256",
+  "size": [
+   1.0,
+   0.725,
+   0.763
+  ],
+  "bytes": 134812,
+  "source": "bubblegum_puffer"
+ },
+ "orchid_lionfish": {
+  "id": "F05",
+  "name": "orchid_lionfish",
+  "kind": "fish",
+  "view": "top",
+  "tris": 1000,
+  "budget": 1000,
+  "verts": 480,
+  "bones": 4,
+  "boneNames": [
+   "spine0",
+   "spine1",
+   "spine2",
+   "spine3"
+  ],
+  "actions": [
+   "die",
+   "hit",
+   "swim",
+   "turn"
+  ],
+  "texture": "256x256",
+  "size": [
+   0.996,
+   0.874,
+   0.395
+  ],
+  "bytes": 151528,
+  "source": "orchid_lionfish"
+ },
+ "lemon_frogfish": {
+  "id": "F06",
+  "name": "lemon_frogfish",
+  "kind": "fish",
+  "view": "top",
+  "tris": 900,
+  "budget": 900,
+  "verts": 452,
+  "bones": 4,
+  "boneNames": [
+   "spine0",
+   "spine1",
+   "spine2",
+   "spine3"
+  ],
+  "actions": [
+   "die",
+   "hit",
+   "swim",
+   "turn"
+  ],
+  "texture": "256x256",
+  "size": [
+   0.988,
+   0.787,
+   0.56
+  ],
+  "bytes": 144264,
+  "source": "lemon_frogfish"
+ },
+ "ruby_lobster": {
+  "id": "F07",
+  "name": "ruby_lobster",
+  "kind": "fish",
+  "view": "top",
+  "tris": 1100,
+  "budget": 1100,
+  "verts": 556,
+  "bones": 5,
+  "boneNames": [
+   "spine0",
+   "spine1",
+   "spine2",
+   "spine3",
+   "spine4"
+  ],
+  "actions": [
+   "die",
+   "hit",
+   "swim",
+   "turn"
+  ],
+  "texture": "256x256",
+  "size": [
+   0.993,
+   0.628,
+   0.313
+  ],
+  "bytes": 184224,
+  "source": "ruby_lobster"
+ },
+ "violet_needlefish": {
+  "id": "F08",
+  "name": "violet_needlefish",
+  "kind": "eel",
+  "view": "top",
+  "tris": 900,
+  "budget": 900,
+  "verts": 452,
+  "bones": 6,
+  "boneNames": [
+   "spine0",
+   "spine1",
+   "spine2",
+   "spine3",
+   "spine4",
+   "spine5"
+  ],
+  "actions": [
+   "die",
+   "hit",
+   "swim",
+   "turn"
+  ],
+  "texture": "256x256",
+  "size": [
+   0.882,
+   0.089,
+   0.172
+  ],
+  "bytes": 109504,
+  "source": "violet_needlefish"
+ },
+ "jade_turtle": {
+  "id": "F09",
+  "name": "jade_turtle",
+  "kind": "turtle",
+  "view": "top",
+  "tris": 1300,
+  "budget": 1300,
+  "verts": 652,
+  "bones": 13,
+  "boneNames": [
+   "body",
+   "flip_FL_0",
+   "flip_FL_1",
+   "flip_FR_0",
+   "flip_FR_1",
+   "flip_BL_0",
+   "flip_BL_1",
+   "flip_BR_0",
+   "flip_BR_1",
+   "head_0",
+   "head_1",
+   "tail_0",
+   "tail_1"
+  ],
+  "actions": [
+   "die",
+   "hit",
+   "swim",
+   "turn"
+  ],
+  "texture": "512x512",
+  "size": [
+   1.004,
+   0.996,
+   0.483
+  ],
+  "bytes": 394828,
+  "source": "jade_turtle"
+ },
+ "coral_octopus": {
+  "id": "F10",
+  "name": "coral_octopus",
+  "kind": "octopus",
+  "view": "top",
+  "tris": 1600,
+  "budget": 1600,
+  "verts": 828,
+  "bones": 28,
+  "boneNames": [
+   "body",
+   "arm0_0",
+   "arm0_1",
+   "arm0_2",
+   "arm1_0",
+   "arm1_1",
+   "arm1_2",
+   "arm2_0",
+   "arm2_1",
+   "arm2_2",
+   "arm3_0",
+   "arm3_1",
+   "arm3_2",
+   "arm4_0",
+   "arm4_1",
+   "arm4_2",
+   "arm5_0",
+   "arm5_1",
+   "arm5_2",
+   "arm6_0",
+   "arm6_1",
+   "arm6_2",
+   "arm7_0",
+   "arm7_1",
+   "arm7_2",
+   "mantle_0",
+   "mantle_1",
+   "mantle_2"
+  ],
+  "actions": [
+   "die",
+   "hit",
+   "swim",
+   "turn"
+  ],
+  "texture": "512x512",
+  "size": [
+   0.991,
+   1.045,
+   0.488
+  ],
+  "bytes": 441840,
+  "source": "coral_octopus"
+ },
+ "glowlamp_angler": {
+  "id": "F11",
+  "name": "glowlamp_angler",
+  "kind": "fish",
+  "view": "top",
+  "tris": 1200,
+  "budget": 1200,
+  "verts": 608,
+  "bones": 4,
+  "boneNames": [
+   "spine0",
+   "spine1",
+   "spine2",
+   "spine3"
+  ],
+  "actions": [
+   "die",
+   "hit",
+   "swim",
+   "turn"
+  ],
+  "texture": "512x512",
+  "size": [
+   0.971,
+   0.463,
+   0.425
+  ],
+  "bytes": 382456,
+  "source": "glowlamp_angler"
+ },
+ "azure_manta": {
+  "id": "F12",
+  "name": "azure_manta",
+  "kind": "ray",
+  "view": "top",
+  "tris": 1200,
+  "budget": 1200,
+  "verts": 602,
+  "bones": 6,
+  "boneNames": [
+   "body",
+   "tail",
+   "wing_L_0",
+   "wing_L_1",
+   "wing_R_0",
+   "wing_R_1"
+  ],
+  "actions": [
+   "die",
+   "hit",
+   "swim",
+   "turn"
+  ],
+  "texture": "512x512",
+  "size": [
+   0.93,
+   0.97,
+   0.357
+  ],
+  "bytes": 258488,
+  "source": "azure_manta"
+ },
+ "ember_swordfish": {
+  "id": "F13",
+  "name": "ember_swordfish",
+  "kind": "billfish",
+  "view": "top",
+  "tris": 1100,
+  "budget": 1100,
+  "verts": 552,
+  "bones": 12,
+  "boneNames": [
+   "spine0",
+   "spine1",
+   "spine2",
+   "spine3",
+   "spine4",
+   "spine5",
+   "spine6",
+   "spine7",
+   "sail_01",
+   "sail_02",
+   "sail_03",
+   "bill"
+  ],
+  "actions": [
+   "dash",
+   "die",
+   "hit",
+   "swim",
+   "turn"
+  ],
+  "texture": "512x512",
+  "size": [
+   0.96,
+   0.199,
+   0.233
+  ],
+  "bytes": 238192,
+  "source": "ember_swordfish",
+  "sailVerts": 73,
+  "billRoot": 0.8
+ },
+ "giant_clownfish": {
+  "id": "G01",
+  "name": "giant_clownfish",
+  "kind": "fish",
+  "view": "top",
+  "tris": 1800,
+  "budget": 1800,
+  "verts": 902,
+  "bones": 5,
+  "boneNames": [
+   "spine0",
+   "spine1",
+   "spine2",
+   "spine3",
+   "spine4"
+  ],
+  "actions": [
+   "die",
+   "hit",
+   "swim",
+   "turn"
+  ],
+  "texture": "512x512",
+  "size": [
+   0.998,
+   0.46,
+   0.351
+  ],
+  "bytes": 395308,
+  "source": "giant_clownfish"
+ },
+ "giant_bannerfish": {
+  "id": "G02",
+  "name": "giant_bannerfish",
+  "kind": "fish",
+  "view": "top",
+  "tris": 1800,
+  "budget": 1800,
+  "verts": 904,
+  "bones": 5,
+  "boneNames": [
+   "spine0",
+   "spine1",
+   "spine2",
+   "spine3",
+   "spine4"
+  ],
+  "actions": [
+   "die",
+   "hit",
+   "swim",
+   "turn"
+  ],
+  "texture": "512x512",
+  "size": [
+   0.882,
+   0.426,
+   0.253
+  ],
+  "bytes": 321540,
+  "source": "giant_bannerfish"
+ },
+ "giant_fugu": {
+  "id": "G03",
+  "name": "giant_fugu",
+  "kind": "puffer",
+  "view": "top",
+  "tris": 1800,
+  "budget": 1800,
+  "verts": 902,
+  "bones": 3,
+  "boneNames": [
+   "spine0",
+   "spine1",
+   "spine2"
+  ],
+  "actions": [
+   "die",
+   "hit",
+   "swim",
+   "turn"
+  ],
+  "texture": "512x512",
+  "size": [
+   1.0,
+   0.792,
+   0.82
+  ],
+  "bytes": 353484,
+  "source": "giant_fugu"
+ },
+ "tidal_shark": {
+  "id": "G04",
+  "name": "tidal_shark",
+  "kind": "fish",
+  "view": "top",
+  "tris": 2200,
+  "budget": 2200,
+  "verts": 1102,
+  "bones": 6,
+  "boneNames": [
+   "spine0",
+   "spine1",
+   "spine2",
+   "spine3",
+   "spine4",
+   "spine5"
+  ],
+  "actions": [
+   "die",
+   "hit",
+   "swim",
+   "turn"
+  ],
+  "texture": "512x512",
+  "size": [
+   0.973,
+   0.508,
+   0.55
+  ],
+  "bytes": 365528,
+  "source": "tidal_shark"
+ },
+ "ember_orca": {
+  "id": "G05",
+  "name": "ember_orca",
+  "kind": "fish",
+  "view": "top",
+  "tris": 2200,
+  "budget": 2200,
+  "verts": 1102,
+  "bones": 6,
+  "boneNames": [
+   "spine0",
+   "spine1",
+   "spine2",
+   "spine3",
+   "spine4",
+   "spine5"
+  ],
+  "actions": [
+   "die",
+   "hit",
+   "swim",
+   "turn"
+  ],
+  "texture": "512x512",
+  "size": [
+   0.99,
+   0.522,
+   0.357
+  ],
+  "bytes": 359816,
+  "source": "ember_orca"
+ },
+ "sovereign_gold_whale": {
+  "id": "G06",
+  "name": "sovereign_gold_whale",
+  "kind": "fish",
+  "view": "top",
+  "tris": 2600,
+  "budget": 2600,
+  "verts": 1306,
+  "bones": 6,
+  "boneNames": [
+   "spine0",
+   "spine1",
+   "spine2",
+   "spine3",
+   "spine4",
+   "spine5"
+  ],
+  "actions": [
+   "die",
+   "hit",
+   "swim",
+   "turn"
+  ],
+  "texture": "1024x1024",
+  "size": [
+   0.996,
+   0.51,
+   0.288
+  ],
+  "bytes": 1079352,
+  "source": "sovereign_gold_whale"
+ },
+ "blast_crab": {
+  "id": "C01",
+  "name": "blast_crab",
+  "kind": "crab",
+  "view": "top",
+  "tris": 3000,
+  "budget": 3000,
+  "verts": 1508,
+  "bones": 35,
+  "boneNames": [
+   "root",
+   "body",
+   "back_gadget",
+   "claw_L_0",
+   "claw_L_1",
+   "claw_L_2",
+   "claw_L_3",
+   "claw_R_0",
+   "claw_R_1",
+   "claw_R_2",
+   "claw_R_3",
+   "leg_L1_0",
+   "leg_L1_1",
+   "leg_L1_2",
+   "leg_L1_3",
+   "leg_L2_0",
+   "leg_L2_1",
+   "leg_L2_2",
+   "leg_L2_3",
+   "leg_L3_0",
+   "leg_L3_1",
+   "leg_L3_2",
+   "leg_L3_3",
+   "leg_R1_0",
+   "leg_R1_1",
+   "leg_R1_2",
+   "leg_R1_3",
+   "leg_R2_0",
+   "leg_R2_1",
+   "leg_R2_2",
+   "leg_R2_3",
+   "leg_R3_0",
+   "leg_R3_1",
+   "leg_R3_2",
+   "leg_R3_3"
+  ],
+  "actions": [
+   "die",
+   "feature",
+   "hit",
+   "swim",
+   "turn",
+   "walk"
+  ],
+  "texture": "512x512",
+  "size": [
+   1.0,
+   0.869,
+   0.562
+  ],
+  "bytes": 666824,
+  "source": "blast_crab",
+  "walkSpeed": 0.1331,
+  "stride": 0.061,
+  "footSlip": 0.0,
+  "footLift": 0.0243
+ },
+ "auger_crab": {
+  "id": "C02",
+  "name": "auger_crab",
+  "kind": "crab",
+  "view": "top",
+  "tris": 3000,
+  "budget": 3000,
+  "verts": 1528,
+  "bones": 35,
+  "boneNames": [
+   "root",
+   "body",
+   "back_gadget",
+   "claw_L_0",
+   "claw_L_1",
+   "claw_L_2",
+   "claw_L_3",
+   "claw_R_0",
+   "claw_R_1",
+   "claw_R_2",
+   "claw_R_3",
+   "leg_L1_0",
+   "leg_L1_1",
+   "leg_L1_2",
+   "leg_L1_3",
+   "leg_L2_0",
+   "leg_L2_1",
+   "leg_L2_2",
+   "leg_L2_3",
+   "leg_L3_0",
+   "leg_L3_1",
+   "leg_L3_2",
+   "leg_L3_3",
+   "leg_R1_0",
+   "leg_R1_1",
+   "leg_R1_2",
+   "leg_R1_3",
+   "leg_R2_0",
+   "leg_R2_1",
+   "leg_R2_2",
+   "leg_R2_3",
+   "leg_R3_0",
+   "leg_R3_1",
+   "leg_R3_2",
+   "leg_R3_3"
+  ],
+  "actions": [
+   "die",
+   "feature",
+   "hit",
+   "swim",
+   "turn",
+   "walk"
+  ],
+  "texture": "512x512",
+  "size": [
+   1.0,
+   0.844,
+   0.439
+  ],
+  "bytes": 689552,
+  "source": "auger_crab",
+  "walkSpeed": 0.1244,
+  "stride": 0.057,
+  "footSlip": 0.0,
+  "footLift": 0.0238
+ },
+ "quake_crab": {
+  "id": "C03",
+  "name": "quake_crab",
+  "kind": "crab",
+  "view": "top",
+  "tris": 3000,
+  "budget": 3000,
+  "verts": 1560,
+  "bones": 35,
+  "boneNames": [
+   "root",
+   "body",
+   "back_gadget",
+   "claw_L_0",
+   "claw_L_1",
+   "claw_L_2",
+   "claw_L_3",
+   "claw_R_0",
+   "claw_R_1",
+   "claw_R_2",
+   "claw_R_3",
+   "leg_L1_0",
+   "leg_L1_1",
+   "leg_L1_2",
+   "leg_L1_3",
+   "leg_L2_0",
+   "leg_L2_1",
+   "leg_L2_2",
+   "leg_L2_3",
+   "leg_L3_0",
+   "leg_L3_1",
+   "leg_L3_2",
+   "leg_L3_3",
+   "leg_R1_0",
+   "leg_R1_1",
+   "leg_R1_2",
+   "leg_R1_3",
+   "leg_R2_0",
+   "leg_R2_1",
+   "leg_R2_2",
+   "leg_R2_3",
+   "leg_R3_0",
+   "leg_R3_1",
+   "leg_R3_2",
+   "leg_R3_3"
+  ],
+  "actions": [
+   "die",
+   "feature",
+   "hit",
+   "swim",
+   "turn",
+   "walk"
+  ],
+  "texture": "512x512",
+  "size": [
+   1.0,
+   0.84,
+   0.55
+  ],
+  "bytes": 653848,
+  "source": "quake_crab",
+  "walkSpeed": 0.1247,
+  "stride": 0.0572,
+  "footSlip": 0.0,
+  "footLift": 0.0223
+ },
+ "prism_crab": {
+  "id": "C04",
+  "name": "prism_crab",
+  "kind": "crab",
+  "view": "top",
+  "tris": 3000,
+  "budget": 3000,
+  "verts": 1528,
+  "bones": 35,
+  "boneNames": [
+   "root",
+   "body",
+   "back_gadget",
+   "claw_L_0",
+   "claw_L_1",
+   "claw_L_2",
+   "claw_L_3",
+   "claw_R_0",
+   "claw_R_1",
+   "claw_R_2",
+   "claw_R_3",
+   "leg_L1_0",
+   "leg_L1_1",
+   "leg_L1_2",
+   "leg_L1_3",
+   "leg_L2_0",
+   "leg_L2_1",
+   "leg_L2_2",
+   "leg_L2_3",
+   "leg_L3_0",
+   "leg_L3_1",
+   "leg_L3_2",
+   "leg_L3_3",
+   "leg_R1_0",
+   "leg_R1_1",
+   "leg_R1_2",
+   "leg_R1_3",
+   "leg_R2_0",
+   "leg_R2_1",
+   "leg_R2_2",
+   "leg_R2_3",
+   "leg_R3_0",
+   "leg_R3_1",
+   "leg_R3_2",
+   "leg_R3_3"
+  ],
+  "actions": [
+   "die",
+   "feature",
+   "hit",
+   "swim",
+   "turn",
+   "walk"
+  ],
+  "texture": "512x512",
+  "size": [
+   1.001,
+   0.821,
+   0.521
+  ],
+  "bytes": 674912,
+  "source": "prism_crab",
+  "walkSpeed": 0.1259,
+  "stride": 0.0577,
+  "footSlip": 0.0,
+  "footLift": 0.0233
+ },
+ "fortune_crab": {
+  "id": "C05",
+  "name": "fortune_crab",
+  "kind": "crab",
+  "view": "top",
+  "tris": 3000,
+  "budget": 3000,
+  "verts": 1514,
+  "bones": 35,
+  "boneNames": [
+   "root",
+   "body",
+   "back_gadget",
+   "claw_L_0",
+   "claw_L_1",
+   "claw_L_2",
+   "claw_L_3",
+   "claw_R_0",
+   "claw_R_1",
+   "claw_R_2",
+   "claw_R_3",
+   "leg_L1_0",
+   "leg_L1_1",
+   "leg_L1_2",
+   "leg_L1_3",
+   "leg_L2_0",
+   "leg_L2_1",
+   "leg_L2_2",
+   "leg_L2_3",
+   "leg_L3_0",
+   "leg_L3_1",
+   "leg_L3_2",
+   "leg_L3_3",
+   "leg_R1_0",
+   "leg_R1_1",
+   "leg_R1_2",
+   "leg_R1_3",
+   "leg_R2_0",
+   "leg_R2_1",
+   "leg_R2_2",
+   "leg_R2_3",
+   "leg_R3_0",
+   "leg_R3_1",
+   "leg_R3_2",
+   "leg_R3_3"
+  ],
+  "actions": [
+   "die",
+   "feature",
+   "hit",
+   "swim",
+   "turn",
+   "walk"
+  ],
+  "texture": "512x512",
+  "size": [
+   0.997,
+   0.874,
+   0.372
+  ],
+  "bytes": 644112,
+  "source": "fortune_crab",
+  "walkSpeed": 0.1381,
+  "stride": 0.0633,
+  "footSlip": 0.0,
+  "footLift": 0.0243
+ },
+ "chain_lightning_needlefish": {
+  "id": "S02",
+  "name": "chain_lightning_needlefish",
+  "kind": "eel",
+  "view": "top",
+  "tris": 900,
+  "budget": 900,
+  "verts": 452,
+  "bones": 6,
+  "boneNames": [
+   "spine0",
+   "spine1",
+   "spine2",
+   "spine3",
+   "spine4",
+   "spine5"
+  ],
+  "actions": [
+   "die",
+   "hit",
+   "swim",
+   "turn"
+  ],
+  "texture": "256x256",
+  "size": [
+   0.882,
+   0.089,
+   0.172
+  ],
+  "bytes": 118344,
+  "source": "violet_needlefish"
+ },
+ "pearl_siren": {
+  "id": "B01",
+  "name": "pearl_siren",
+  "kind": "siren",
+  "view": "top",
+  "tris": 3998,
+  "budget": 4000,
+  "verts": 2001,
+  "bones": 7,
+  "boneNames": [
+   "spine0",
+   "spine1",
+   "spine2",
+   "spine3",
+   "spine4",
+   "spine5",
+   "spine6"
+  ],
+  "actions": [
+   "attack",
+   "die",
+   "hit",
+   "idle",
+   "swim",
+   "turn"
+  ],
+  "texture": "1024x1024",
+  "size": [
+   0.991,
+   0.253,
+   0.25
+  ],
+  "bytes": 856944,
+  "source": "pearl_siren"
+ },
+ "elder_reefjaw": {
+  "id": "B02",
+  "name": "elder_reefjaw",
+  "kind": "fish",
+  "view": "top",
+  "tris": 4000,
+  "budget": 4000,
+  "verts": 2002,
+  "bones": 7,
+  "boneNames": [
+   "spine0",
+   "spine1",
+   "spine2",
+   "spine3",
+   "spine4",
+   "spine5",
+   "spine6"
+  ],
+  "actions": [
+   "attack",
+   "die",
+   "hit",
+   "idle",
+   "swim",
+   "turn"
+  ],
+  "texture": "1024x1024",
+  "size": [
+   0.99,
+   0.41,
+   0.222
+  ],
+  "bytes": 1094348,
+  "source": "elder_reefjaw"
+ },
+ "storm_serpent": {
+  "id": "B03",
+  "name": "storm_serpent",
+  "kind": "serpent",
+  "view": "top",
+  "tris": 4500,
+  "budget": 4500,
+  "verts": 2262,
+  "bones": 12,
+  "boneNames": [
+   "spine0",
+   "spine1",
+   "spine2",
+   "spine3",
+   "spine4",
+   "spine5",
+   "spine6",
+   "spine7",
+   "spine8",
+   "spine9",
+   "spine10",
+   "spine11"
+  ],
+  "actions": [
+   "attack",
+   "die",
+   "hit",
+   "idle",
+   "swim",
+   "turn"
+  ],
+  "texture": "1024x1024",
+  "size": [
+   0.986,
+   0.2,
+   0.166
+  ],
+  "bytes": 809672,
+  "source": "storm_serpent"
+ },
+ "phantom_galleon": {
+  "id": "B04",
+  "name": "phantom_galleon",
+  "kind": "ship",
+  "view": "top",
+  "tris": 9471,
+  "budget": 15000,
+  "verts": 21634,
+  "bones": 25,
+  "boneNames": [
+   "root",
+   "hull_sway",
+   "hull",
+   "figurehead",
+   "mast_01",
+   "sail_06_a",
+   "sail_06_b",
+   "sail_06_c",
+   "mast_02",
+   "sail_01_a",
+   "sail_01_b",
+   "sail_01_c",
+   "sail_02_a",
+   "sail_02_b",
+   "sail_02_c",
+   "sail_03_a",
+   "sail_03_b",
+   "sail_03_c",
+   "mast_03",
+   "sail_04_a",
+   "sail_04_b",
+   "sail_04_c",
+   "sail_05_a",
+   "sail_05_b",
+   "sail_05_c"
+  ],
+  "actions": [
+   "attack",
+   "die",
+   "hit",
+   "idle",
+   "sails",
+   "sway",
+   "turn"
+  ],
+  "texture": "1024x1024",
+  "size": [
+   1.0,
+   0.36,
+   0.568
+  ],
+  "bytes": 2403700,
+  "source": "phantom_galleon",
+  "meshySailFacesRemoved": 2568,
+  "source3d": "meshy",
+  "sails": [
+   {
+    "card": 1,
+    "mast": "mast_02",
+    "hoist": 0.149,
+    "width": 0.297,
+    "belly": 0.12,
+    "braceDeg": 80
+   },
+   {
+    "card": 2,
+    "mast": "mast_02",
+    "hoist": 0.119,
+    "width": 0.228,
+    "belly": 0.1,
+    "braceDeg": 80
+   },
+   {
+    "card": 3,
+    "mast": "mast_02",
+    "hoist": 0.092,
+    "width": 0.179,
+    "belly": 0.08,
+    "braceDeg": 80
+   },
+   {
+    "card": 4,
+    "mast": "mast_03",
+    "hoist": 0.134,
+    "width": 0.24,
+    "belly": 0.12,
+    "braceDeg": 80
+   },
+   {
+    "card": 5,
+    "mast": "mast_03",
+    "hoist": 0.107,
+    "width": 0.193,
+    "belly": 0.1,
+    "braceDeg": 80
+   },
+   {
+    "card": 6,
+    "mast": "mast_01",
+    "hoist": 0.083,
+    "width": 0.141,
+    "belly": 0.1,
+    "braceDeg": 80
+   }
+  ],
+  "masts": [
+   [
+    -0.214,
+    -0.073,
+    0.373
+   ],
+   [
+    0.011,
+    -0.073,
+    0.367
+   ],
+   [
+    0.26,
+    -0.073,
+    0.219
+   ]
+  ]
+ },
+ "count_nocturne": {
+  "id": "K01",
+  "name": "count_nocturne",
+  "kind": "upright",
+  "view": "front",
+  "tris": 5000,
+  "budget": 5000,
+  "verts": 2522,
+  "bones": 28,
+  "boneNames": [
+   "root",
+   "hips",
+   "spine_01",
+   "chest",
+   "neck",
+   "head",
+   "wing_L_0",
+   "wing_L_1",
+   "wing_L_2",
+   "wing_L_3",
+   "wing_R_0",
+   "wing_R_1",
+   "wing_R_2",
+   "wing_R_3",
+   "cape_L_1",
+   "cape_L_2",
+   "cape_L_3",
+   "cape_L_4",
+   "cape_C_1",
+   "cape_C_2",
+   "cape_C_3",
+   "cape_C_4",
+   "cape_R_1",
+   "cape_R_2",
+   "cape_R_3",
+   "cape_R_4",
+   "leg_L",
+   "leg_R"
+  ],
+  "actions": [
+   "attack",
+   "die",
+   "hit",
+   "idle",
+   "swim",
+   "turn",
+   "walk"
+  ],
+  "texture": "1024x1024",
+  "size": [
+   1.125,
+   0.989,
+   0.46
+  ],
+  "bytes": 1166928,
+  "source": "count_nocturne"
+ },
+ "count_nocturne_coffin": {
+  "id": "K01C",
+  "name": "count_nocturne_coffin",
+  "kind": "coffin",
+  "view": "top",
+  "tris": 2500,
+  "budget": 2500,
+  "verts": 1252,
+  "bones": 3,
+  "boneNames": [
+   "root",
+   "body",
+   "lid"
+  ],
+  "actions": [
+   "close",
+   "die",
+   "hit",
+   "idle",
+   "open",
+   "swim",
+   "turn"
+  ],
+  "texture": "1024x1024",
+  "size": [
+   0.967,
+   0.302,
+   0.335
+  ],
+  "bytes": 949344,
+  "source": "count_nocturne_coffin"
+ },
+ "riff_reaper": {
+  "id": "K02",
+  "name": "riff_reaper",
+  "kind": "upright",
+  "view": "front",
+  "tris": 5000,
+  "budget": 5000,
+  "verts": 2500,
+  "bones": 14,
+  "boneNames": [
+   "root",
+   "hips",
+   "spine_01",
+   "chest",
+   "neck",
+   "head",
+   "arm_L_0",
+   "arm_L_1",
+   "arm_L_2",
+   "arm_R_0",
+   "arm_R_1",
+   "arm_R_2",
+   "leg_L",
+   "leg_R"
+  ],
+  "actions": [
+   "attack",
+   "die",
+   "hit",
+   "idle",
+   "swim",
+   "turn",
+   "walk"
+  ],
+  "texture": "1024x1024",
+  "size": [
+   0.641,
+   0.997,
+   0.265
+  ],
+  "bytes": 649784,
+  "source": "riff_reaper"
+ }
+}
