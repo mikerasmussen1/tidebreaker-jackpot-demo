@@ -96,7 +96,8 @@
       "3": 80,
       "4": 90
     },
-    "holdToFire": true
+    "holdToFire": true,
+    "holdIntervalMs": 285
   },
   "lockOn": {
     "enabled": true,
@@ -236,10 +237,19 @@
     ],
     "rollOn": "capture_any",
     "eligibleHitShareEstimate": 0.03,
-    "tickerUpdateMs": 1000
+    "tickerUpdateMs": 1000,
+    "botShotsPerS": [
+      600,
+      1700
+    ],
+    "botWinPerS": {
+      "mega": 0.0006,
+      "major": 0.002,
+      "mini": 0.006
+    }
   },
   "spawn": {
-    "maxFishOnScreen": 60,
+    "maxFishOnScreen": 26,
     "tickMs": 250,
     "bossCooldownMs": [
       45000,
@@ -256,25 +266,25 @@
       40000
     ],
     "sceneIntervalMs": [
-      480000,
-      620000
+      515000,
+      611000
     ],
     "firstSceneMs": [
-      90000,
-      240000
+      515000,
+      611000
     ],
     "sceneTransitionMs": 4000,
     "sceneClearMs": 2200,
     "sceneOrder": [
-      "lagoon",
       "stage",
       "lagoon",
+      "stage",
       "reef"
     ]
   },
   "seats": {
     "count": 4,
-    "demoBots": 3,
+    "demoBots": 0,
     "positions": {
       "1": [
         0.28,
@@ -313,7 +323,7 @@
         40
       ],
       "path": "school_bezier",
-      "spawnWeight": 220,
+      "spawnWeight": 121.0,
       "speed": 233,
       "outcomes": [
         [
@@ -335,7 +345,7 @@
         30
       ],
       "path": "school_bezier",
-      "spawnWeight": 200,
+      "spawnWeight": 110.0,
       "speed": 216,
       "outcomes": [
         [
@@ -357,7 +367,7 @@
         30
       ],
       "path": "school_bezier",
-      "spawnWeight": 170,
+      "spawnWeight": 93.5,
       "speed": 251,
       "outcomes": [
         [
@@ -379,7 +389,7 @@
         56
       ],
       "path": "wander_spline",
-      "spawnWeight": 150,
+      "spawnWeight": 82.5,
       "speed": 150,
       "outcomes": [
         [
@@ -401,7 +411,7 @@
         56
       ],
       "path": "wander_spline",
-      "spawnWeight": 130,
+      "spawnWeight": 71.5,
       "speed": 159,
       "outcomes": [
         [
@@ -599,7 +609,7 @@
         130
       ],
       "path": "glide_bezier",
-      "spawnWeight": 25,
+      "spawnWeight": 80.0,
       "speed": 108,
       "outcomes": [
         [
@@ -637,7 +647,7 @@
         120
       ],
       "path": "glide_bezier",
-      "spawnWeight": 25,
+      "spawnWeight": 80.0,
       "speed": 108,
       "outcomes": [
         [
@@ -675,7 +685,7 @@
         160
       ],
       "path": "glide_bezier",
-      "spawnWeight": 25,
+      "spawnWeight": 80.0,
       "speed": 93,
       "outcomes": [
         [
@@ -713,7 +723,7 @@
         130
       ],
       "path": "glide_bezier",
-      "spawnWeight": 18,
+      "spawnWeight": 57.6,
       "speed": 140,
       "outcomes": [
         [
@@ -751,7 +761,7 @@
         150
       ],
       "path": "glide_bezier",
-      "spawnWeight": 12,
+      "spawnWeight": 38.4,
       "speed": 116,
       "outcomes": [
         [
@@ -789,7 +799,7 @@
         170
       ],
       "path": "glide_bezier",
-      "spawnWeight": 6,
+      "spawnWeight": 19.2,
       "speed": 101,
       "outcomes": [
         [
@@ -811,7 +821,7 @@
         130
       ],
       "path": "crawl_spline",
-      "spawnWeight": 4,
+      "spawnWeight": 8.0,
       "speed": 80,
       "outcomes": [
         [
@@ -845,7 +855,7 @@
         130
       ],
       "path": "crawl_spline",
-      "spawnWeight": 4,
+      "spawnWeight": 8.0,
       "speed": 80,
       "outcomes": [
         [
@@ -879,7 +889,7 @@
         140
       ],
       "path": "crawl_spline",
-      "spawnWeight": 3,
+      "spawnWeight": 6.0,
       "speed": 72,
       "outcomes": [
         [
@@ -913,7 +923,7 @@
         130
       ],
       "path": "crawl_spline",
-      "spawnWeight": 3,
+      "spawnWeight": 6.0,
       "speed": 72,
       "outcomes": [
         [
@@ -947,7 +957,7 @@
         150
       ],
       "path": "crawl_spline",
-      "spawnWeight": 3,
+      "spawnWeight": 6.0,
       "speed": 72,
       "outcomes": [
         [
@@ -1005,7 +1015,7 @@
         120
       ],
       "path": "straight_fast",
-      "spawnWeight": 8,
+      "spawnWeight": 16.0,
       "speed": 251,
       "outcomes": [
         [
@@ -1438,12 +1448,21 @@
   "bots": {
     "betRange": [
       0.05,
-      1
+      0.05
     ],
     "shotsPerS": [
-      5,
-      7.5
+      4,
+      7
+    ],
+    "joinMs": [
+      60000,
+      120000
+    ],
+    "joinSeat": 1,
+    "joinBalance": [
+      15,
+      40
     ]
   },
-  "minFishOnScreen": 25
+  "minFishOnScreen": 12
 }
