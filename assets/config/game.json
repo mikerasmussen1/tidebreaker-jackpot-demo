@@ -1,1437 +1,1449 @@
 {
- "gameId": "tidebreaker_jackpot",
- "version": "1.0.0",
- "designResolution": [
-  1920,
-  1080
- ],
- "currency": {
-  "code": "SC",
-  "decimals": 2,
-  "demoStartBalance": 2000.0
- },
- "rtp": {
-  "target": 0.965,
-  "budget": {
-   "fishCapture": 0.9334,
-   "rocketCannon": 0.005,
-   "abyssVortex": 0.025,
-   "jackpots": 0.003
-  },
-  "captureModel": "P(capture per hit) = budget.fishCapture / E[multiplier | species, state]",
-  "maxWinMultiplier": 3000,
-  "rngMode": "server_csprng",
-  "provablyFair": {
-   "enabled": true,
-   "commitReveal": "sha256(serverSeed) published per session, clientSeed + nonce per shot"
-  }
- },
- "bets": {
-  "ladder": [
-   0.05,
-   0.1,
-   0.2,
-   0.3,
-   0.4,
-   0.5,
-   0.6,
-   0.7,
-   0.8,
-   0.9,
-   1,
-   1.5,
-   2,
-   2.5,
-   3,
-   3.5,
-   4,
-   4.5,
-   5,
-   6,
-   7,
-   8,
-   9,
-   10
+  "gameId": "tidebreaker_jackpot",
+  "version": "1.0.0",
+  "designResolution": [
+    1920,
+    1080
   ],
-  "default": 0.05,
-  "minIndex": 0,
-  "maxIndex": 23
- },
- "cannonTiers": [
-  {
-   "tier": 1,
-   "name": "Coral Turret",
-   "minBet": 0.05,
-   "maxBet": 0.3
+  "currency": {
+    "code": "SC",
+    "decimals": 2,
+    "demoStartBalance": 2000.0
   },
-  {
-   "tier": 2,
-   "name": "Tidal Mech",
-   "minBet": 0.4,
-   "maxBet": 0.9
+  "rtp": {
+    "target": 0.965,
+    "budget": {
+      "fishCapture": 0.9334,
+      "rocketCannon": 0.005,
+      "abyssVortex": 0.025,
+      "jackpots": 0.003
+    },
+    "captureModel": "P(capture per hit) = budget.fishCapture / E[multiplier | species, state]",
+    "maxWinMultiplier": 3000,
+    "rngMode": "server_csprng",
+    "provablyFair": {
+      "enabled": true,
+      "commitReveal": "sha256(serverSeed) published per session, clientSeed + nonce per shot"
+    }
   },
-  {
-   "tier": 3,
-   "name": "Magma Forge",
-   "minBet": 1,
-   "maxBet": 3.5
-  },
-  {
-   "tier": 4,
-   "name": "Sovereign Gold",
-   "minBet": 4,
-   "maxBet": 10
-  }
- ],
- "firing": {
-  "fireIntervalMs": 200,
-  "bulletSpeedPxS": 1400,
-  "maxBulletsPerSeat": 30,
-  "maxBounces": 8,
-  "bulletLifetimeMs": 6000,
-  "bulletRadiusPx": 14,
-  "netRadiusPx": {
-   "1": 60,
-   "2": 70,
-   "3": 80,
-   "4": 90
-  },
-  "holdToFire": true
- },
- "lockOn": {
-  "enabled": true,
-  "homingTurnRateDegS": 720,
-  "ignoreOtherFish": true,
-  "autoRetargetOnDeath": false
- },
- "autoFishing": {
-  "enabled": true,
-  "defaultSelection": "all",
-  "retargetPriority": "highestMultiplierInSelection"
- },
- "specials": {
-  "phoenixBlaze": {
-   "costMultiplier": 5,
-   "hitRateMultiplier": 5,
-   "payout": "cost x m / 5",
-   "pierce": true,
-   "maxTargetsPierced": 1
-  },
-  "dragonStorm": {
-   "costMultiplier": 7,
-   "radiusPx": 260,
-   "maxFishInRange": 12,
-   "payout": "cost x m / 7 per captured fish",
-   "splitHitRate": "7 x P_i / n"
-  },
-  "rocketCannon": {
-   "triggerChancePerShot": 0.002,
-   "rockets": 4,
-   "rocketCaptureBudget": 0.625
-  },
-  "abyssVortex": {
-   "energyRateOfBet": 0.025,
-   "fullAtBetUnits": 2.5,
-   "awardFactorTable": [
-    [
-     0.3,
-     30
-    ],
-    [
-     0.6,
-     30
-    ],
-    [
-     1.0,
-     20
-    ],
-    [
-     1.8,
-     12
-    ],
-    [
-     3.0,
-     6
-    ],
-    [
-     5.0,
-     2
-    ]
-   ],
-   "energyExpiryHours": 24
-  },
-  "vortexFish": {
-   "variantChance": 0.05,
-   "eligible": [
-    "F04",
-    "F05",
-    "F06",
-    "F07",
-    "F08",
-    "F09",
-    "F10",
-    "F11",
-    "F12"
-   ]
-  },
-  "laserCrab": {
-   "durationMs": 8000,
-   "tickMs": 100
-  },
-  "fortuneWheel": {
-   "spinMs": 4000
-  }
- },
- "jackpots": {
-  "perBetLevelPools": true,
-  "tiers": {
-   "mega": {
-    "seedXBet": 2500,
-    "initialXBet": 4516,
-    "contribution": 0.0018
-   },
-   "major": {
-    "seedXBet": 600,
-    "initialXBet": 1738,
-    "contribution": 0.0009
-   },
-   "mini": {
-    "seedXBet": 200,
-    "initialXBet": 579,
-    "contribution": 0.0003
-   }
-  },
-  "eligibleSpecies": [
-   "F01",
-   "F02",
-   "F03",
-   "F04",
-   "F05",
-   "F06",
-   "F07",
-   "F08",
-   "F09",
-   "F10",
-   "F11",
-   "F12",
-   "F13",
-   "G01",
-   "G02",
-   "G03",
-   "G04",
-   "G05",
-   "G06",
-   "C01",
-   "C02",
-   "C03",
-   "C04",
-   "C05",
-   "S02",
-   "B01",
-   "B02",
-   "B03",
-   "B04",
-   "K01",
-   "K02"
-  ],
-  "rollOn": "capture_any",
-  "eligibleHitShareEstimate": 0.03,
-  "tickerUpdateMs": 1000
- },
- "spawn": {
-  "maxFishOnScreen": 60,
-  "tickMs": 250,
-  "bossCooldownMs": [
-   45000,
-   90000
-  ],
-  "kingCooldownMs": [
-   120000,
-   240000
-  ],
-  "tideIntervalMs": [
-   150000,
-   210000
-  ],
-  "tideDurationMs": 4000,
-  "formationChance": 0.25,
-  "firstBossMs": [
-   25000,
-   40000
-  ]
- },
- "seats": {
-  "count": 4,
-  "demoBots": 3,
-  "positions": {
-   "1": [
-    0.28,
-    0.93,
-    0
-   ],
-   "2": [
-    0.72,
-    0.93,
-    0
-   ],
-   "3": [
-    0.28,
-    0.07,
-    180
-   ],
-   "4": [
-    0.72,
-    0.07,
-    180
-   ]
-  }
- },
- "idle": {
-  "warnAfterMs": 120000,
-  "countdownMs": 60000
- },
- "species": [
-  {
-   "id": "F01",
-   "name": "Wingfin Minnow",
-   "cls": "normal",
-   "size": "XS",
-   "hitbox": [
-    48,
-    40
-   ],
-   "path": "school_bezier",
-   "spawnWeight": 220,
-   "speed": 140,
-   "outcomes": [
-    [
-     2,
-     1
-    ]
-   ],
-   "art": "f01_wingfin_minnow",
-   "facingLeft": false,
-   "model": "wingfin_minnow"
-  },
-  {
-   "id": "F02",
-   "name": "Ember Clownfish",
-   "cls": "normal",
-   "size": "XS",
-   "hitbox": [
-    44,
-    30
-   ],
-   "path": "school_bezier",
-   "spawnWeight": 200,
-   "speed": 130,
-   "outcomes": [
-    [
-     3,
-     1
-    ]
-   ],
-   "art": "f02_ember_clownfish",
-   "facingLeft": false,
-   "model": "ember_clownfish"
-  },
-  {
-   "id": "F03",
-   "name": "Sunstripe Darter",
-   "cls": "normal",
-   "size": "XS",
-   "hitbox": [
-    56,
-    30
-   ],
-   "path": "school_bezier",
-   "spawnWeight": 170,
-   "speed": 150,
-   "outcomes": [
-    [
-     4,
-     1
-    ]
-   ],
-   "art": "f03_sunstripe_darter",
-   "facingLeft": false,
-   "model": "sunstripe_darter"
-  },
-  {
-   "id": "F04",
-   "name": "Bubblegum Puffer",
-   "cls": "normal",
-   "size": "S",
-   "hitbox": [
-    56,
-    56
-   ],
-   "path": "wander_spline",
-   "spawnWeight": 150,
-   "speed": 90,
-   "outcomes": [
-    [
-     5,
-     1
-    ]
-   ],
-   "art": "f04_bubblegum_puffer",
-   "facingLeft": false,
-   "model": "bubblegum_puffer"
-  },
-  {
-   "id": "F05",
-   "name": "Orchid Lionfish",
-   "cls": "normal",
-   "size": "S",
-   "hitbox": [
-    70,
-    56
-   ],
-   "path": "wander_spline",
-   "spawnWeight": 130,
-   "speed": 95,
-   "outcomes": [
-    [
-     6,
-     1
-    ]
-   ],
-   "art": "f05_orchid_lionfish",
-   "facingLeft": true,
-   "model": "orchid_lionfish"
-  },
-  {
-   "id": "F06",
-   "name": "Lemon Frogfish",
-   "cls": "normal",
-   "size": "S",
-   "hitbox": [
-    70,
-    64
-   ],
-   "path": "wander_spline",
-   "spawnWeight": 110,
-   "speed": 80,
-   "outcomes": [
-    [
-     7,
-     1
-    ]
-   ],
-   "art": "f06_lemon_frogfish",
-   "facingLeft": false,
-   "model": "lemon_frogfish"
-  },
-  {
-   "id": "F07",
-   "name": "Ruby Lobster",
-   "cls": "normal",
-   "size": "S",
-   "hitbox": [
-    76,
-    60
-   ],
-   "path": "straight_drift",
-   "spawnWeight": 100,
-   "speed": 85,
-   "outcomes": [
-    [
-     8,
-     1
-    ]
-   ],
-   "art": "f07_ruby_lobster",
-   "facingLeft": false,
-   "model": "ruby_lobster"
-  },
-  {
-   "id": "F08",
-   "name": "Violet Needlefish",
-   "cls": "normal",
-   "size": "M",
-   "hitbox": [
-    110,
-    34
-   ],
-   "path": "straight_fast",
-   "spawnWeight": 90,
-   "speed": 190,
-   "outcomes": [
-    [
-     9,
-     1
-    ]
-   ],
-   "art": "f08_violet_needlefish",
-   "facingLeft": false,
-   "model": "violet_needlefish"
-  },
-  {
-   "id": "F09",
-   "name": "Jade Turtle",
-   "cls": "normal",
-   "size": "M",
-   "hitbox": [
-    96,
-    96
-   ],
-   "path": "wander_spline",
-   "spawnWeight": 45,
-   "speed": 70,
-   "outcomes": [
-    [
-     15,
-     1
-    ]
-   ],
-   "art": "f09_jade_turtle",
-   "facingLeft": false,
-   "model": "jade_turtle"
-  },
-  {
-   "id": "F10",
-   "name": "Coral Octopus",
-   "cls": "normal",
-   "size": "M",
-   "hitbox": [
-    96,
-    96
-   ],
-   "path": "pulse_spline",
-   "spawnWeight": 70,
-   "speed": 65,
-   "outcomes": [
-    [
-     10,
-     1
-    ]
-   ],
-   "art": "f10_coral_octopus",
-   "facingLeft": false,
-   "model": "coral_octopus"
-  },
-  {
-   "id": "F11",
-   "name": "Glowlamp Angler",
-   "cls": "normal",
-   "size": "M",
-   "hitbox": [
-    100,
-    80
-   ],
-   "path": "wander_spline",
-   "spawnWeight": 60,
-   "speed": 70,
-   "outcomes": [
-    [
-     12,
-     1
-    ]
-   ],
-   "art": "f11_glowlamp_angler",
-   "facingLeft": false,
-   "model": "glowlamp_angler"
-  },
-  {
-   "id": "F12",
-   "name": "Azure Manta",
-   "cls": "normal",
-   "size": "L",
-   "hitbox": [
-    190,
-    150
-   ],
-   "path": "glide_bezier",
-   "spawnWeight": 30,
-   "speed": 80,
-   "outcomes": [
-    [
-     20,
-     1
-    ]
-   ],
-   "art": "f12_azure_manta",
-   "facingLeft": false,
-   "model": "azure_manta"
-  },
-  {
-   "id": "F13",
-   "name": "Ember Swordfish",
-   "cls": "normal",
-   "size": "M",
-   "hitbox": [
-    115,
-    34
-   ],
-   "path": "straight_fast",
-   "spawnWeight": 40,
-   "speed": 175,
-   "outcomes": [
-    [
-     18,
-     1
-    ]
-   ],
-   "art": "f13_ember_swordfish",
-   "facingLeft": false,
-   "model": "ember_swordfish"
-  },
-  {
-   "id": "G01",
-   "name": "Giant Clownfish",
-   "cls": "giant",
-   "size": "L",
-   "hitbox": [
-    170,
-    130
-   ],
-   "path": "glide_bezier",
-   "spawnWeight": 25,
-   "speed": 70,
-   "outcomes": [
-    [
-     10,
-     30
-    ],
-    [
-     15,
-     25
-    ],
-    [
-     20,
-     20
-    ],
-    [
-     25,
-     15
-    ],
-    [
-     30,
-     10
-    ]
-   ],
-   "art": "g01_giant_clownfish",
-   "facingLeft": false,
-   "model": "giant_clownfish"
-  },
-  {
-   "id": "G02",
-   "name": "Giant Bannerfish",
-   "cls": "giant",
-   "size": "L",
-   "hitbox": [
-    200,
-    120
-   ],
-   "path": "glide_bezier",
-   "spawnWeight": 25,
-   "speed": 70,
-   "outcomes": [
-    [
-     10,
-     30
-    ],
-    [
-     15,
-     25
-    ],
-    [
-     20,
-     20
-    ],
-    [
-     25,
-     15
-    ],
-    [
-     30,
-     10
-    ]
-   ],
-   "art": "g02_giant_bannerfish",
-   "facingLeft": false,
-   "model": "giant_bannerfish"
-  },
-  {
-   "id": "G03",
-   "name": "Giant Fugu",
-   "cls": "giant",
-   "size": "L",
-   "hitbox": [
-    170,
-    160
-   ],
-   "path": "glide_bezier",
-   "spawnWeight": 25,
-   "speed": 60,
-   "outcomes": [
-    [
-     10,
-     30
-    ],
-    [
-     15,
-     25
-    ],
-    [
-     20,
-     20
-    ],
-    [
-     25,
-     15
-    ],
-    [
-     30,
-     10
-    ]
-   ],
-   "art": "g03_giant_fugu",
-   "facingLeft": false,
-   "model": "giant_fugu"
-  },
-  {
-   "id": "G04",
-   "name": "Tidal Shark",
-   "cls": "giant",
-   "size": "XL",
-   "hitbox": [
-    300,
-    130
-   ],
-   "path": "glide_bezier",
-   "spawnWeight": 18,
-   "speed": 90,
-   "outcomes": [
-    [
-     20,
-     30
-    ],
-    [
-     30,
-     25
-    ],
-    [
-     40,
-     20
-    ],
-    [
-     50,
-     15
-    ],
-    [
-     60,
-     10
-    ]
-   ],
-   "art": "g04_tidal_shark",
-   "facingLeft": false,
-   "model": "tidal_shark"
-  },
-  {
-   "id": "G05",
-   "name": "Ember Orca",
-   "cls": "giant",
-   "size": "XL",
-   "hitbox": [
-    340,
-    150
-   ],
-   "path": "glide_bezier",
-   "spawnWeight": 12,
-   "speed": 75,
-   "outcomes": [
-    [
-     30,
-     30
-    ],
-    [
-     45,
-     25
-    ],
-    [
-     60,
-     20
-    ],
-    [
-     80,
-     15
-    ],
-    [
-     100,
-     10
-    ]
-   ],
-   "art": "g05_ember_orca",
-   "facingLeft": true,
-   "model": "ember_orca"
-  },
-  {
-   "id": "G06",
-   "name": "Sovereign Gold Whale",
-   "cls": "giant",
-   "size": "XL",
-   "hitbox": [
-    380,
-    170
-   ],
-   "path": "glide_bezier",
-   "spawnWeight": 6,
-   "speed": 65,
-   "outcomes": [
-    [
-     100,
-     1
-    ]
-   ],
-   "art": "g06_sovereign_gold_whale",
-   "facingLeft": false,
-   "model": "sovereign_gold_whale"
-  },
-  {
-   "id": "C01",
-   "name": "Blast Crab",
-   "cls": "crab",
-   "size": "L",
-   "hitbox": [
-    150,
-    130
-   ],
-   "path": "crawl_spline",
-   "spawnWeight": 4,
-   "speed": 55,
-   "outcomes": [
-    [
-     120,
-     40
-    ],
-    [
-     140,
-     25
-    ],
-    [
-     160,
-     20
-    ],
-    [
-     180,
-     15
-    ]
-   ],
-   "art": "c01_blast_crab",
-   "facingLeft": false,
-   "model": "blast_crab"
-  },
-  {
-   "id": "C02",
-   "name": "Auger Crab",
-   "cls": "crab",
-   "size": "L",
-   "hitbox": [
-    160,
-    130
-   ],
-   "path": "crawl_spline",
-   "spawnWeight": 4,
-   "speed": 55,
-   "outcomes": [
-    [
-     120,
-     40
-    ],
-    [
-     140,
-     25
-    ],
-    [
-     160,
-     20
-    ],
-    [
-     180,
-     15
-    ]
-   ],
-   "art": "c02_auger_crab",
-   "facingLeft": false,
-   "model": "auger_crab"
-  },
-  {
-   "id": "C03",
-   "name": "Quake Crab",
-   "cls": "crab",
-   "size": "L",
-   "hitbox": [
-    160,
-    140
-   ],
-   "path": "crawl_spline",
-   "spawnWeight": 3,
-   "speed": 50,
-   "outcomes": [
-    [
-     150,
-     40
-    ],
-    [
-     175,
-     25
-    ],
-    [
-     200,
-     20
-    ],
-    [
-     225,
-     15
-    ]
-   ],
-   "art": "c03_quake_crab",
-   "facingLeft": false,
-   "model": "quake_crab"
-  },
-  {
-   "id": "C04",
-   "name": "Prism Crab",
-   "cls": "crab",
-   "size": "L",
-   "hitbox": [
-    150,
-    130
-   ],
-   "path": "crawl_spline",
-   "spawnWeight": 3,
-   "speed": 50,
-   "outcomes": [
-    [
-     150,
-     40
-    ],
-    [
-     175,
-     25
-    ],
-    [
-     200,
-     20
-    ],
-    [
-     225,
-     15
-    ]
-   ],
-   "art": "c04_prism_crab",
-   "facingLeft": false,
-   "model": "prism_crab"
-  },
-  {
-   "id": "C05",
-   "name": "Fortune Crab",
-   "cls": "crab",
-   "size": "L",
-   "hitbox": [
-    160,
-    150
-   ],
-   "path": "crawl_spline",
-   "spawnWeight": 3,
-   "speed": 50,
-   "outcomes": [
-    [
-     20,
-     22
-    ],
-    [
-     30,
-     22
-    ],
-    [
-     50,
-     18
-    ],
-    [
-     110,
-     12
-    ],
-    [
-     120,
-     10
-    ],
-    [
-     180,
-     7
-    ],
-    [
-     230,
-     5
-    ],
-    [
-     300,
-     2.5
-    ],
-    [
-     500,
-     1.0
-    ],
-    [
-     800,
-     0.5
-    ]
-   ],
-   "art": "c05_fortune_crab",
-   "facingLeft": false,
-   "model": "fortune_crab"
-  },
-  {
-   "id": "S02",
-   "name": "Chain Lightning Needlefish",
-   "cls": "chain",
-   "size": "M",
-   "hitbox": [
-    120,
-    120
-   ],
-   "path": "straight_fast",
-   "spawnWeight": 8,
-   "speed": 150,
-   "outcomes": [
-    [
-     40,
-     30
-    ],
-    [
-     60,
-     25
-    ],
-    [
-     90,
-     20
-    ],
-    [
-     130,
-     12
-    ],
-    [
-     180,
-     8
-    ],
-    [
-     230,
-     5
-    ]
-   ],
-   "art": "s02_chain_needlefish_composite",
-   "facingLeft": false,
-   "model": "chain_lightning_needlefish"
-  },
-  {
-   "id": "B01",
-   "name": "Pearl Siren",
-   "cls": "boss",
-   "size": "XL",
-   "hitbox": [
-    220,
-    300
-   ],
-   "path": "boss_lane",
-   "spawnWeight": 1.2,
-   "speed": 45,
-   "outcomes": {
-    "base": [
-     [
-      100,
-      30
-     ],
-     [
-      120,
-      25
-     ],
-     [
-      150,
-      20
-     ],
-     [
-      180,
-      15
-     ],
-     [
-      200,
-      10
-     ]
-    ],
-    "awak_p": 0.12,
-    "awak": [
-     [
-      200,
-      40
-     ],
-     [
-      400,
-      30
-     ],
-     [
-      600,
-      18
-     ],
-     [
-      800,
-      8
-     ],
-     [
-      1000,
-      4
-     ]
-    ],
-    "cap": 1200
-   },
-   "art": "b01_pearl_siren",
-   "facingLeft": false,
-   "model": "pearl_siren"
-  },
-  {
-   "id": "B02",
-   "name": "Elder Reefjaw",
-   "cls": "boss",
-   "size": "XL",
-   "hitbox": [
-    460,
-    150
-   ],
-   "path": "boss_lane",
-   "spawnWeight": 1.2,
-   "speed": 45,
-   "outcomes": {
-    "base": [
-     [
-      100,
-      30
-     ],
-     [
-      120,
-      25
-     ],
-     [
-      150,
-      20
-     ],
-     [
-      180,
-      15
-     ],
-     [
-      200,
-      10
-     ]
-    ],
-    "awak_p": 0.12,
-    "awak": [
-     [
-      200,
-      40
-     ],
-     [
-      400,
-      30
-     ],
-     [
-      600,
-      18
-     ],
-     [
-      800,
-      8
-     ],
-     [
-      1000,
-      4
-     ]
-    ],
-    "cap": 1200
-   },
-   "art": "b02_elder_reefjaw",
-   "facingLeft": false,
-   "model": "elder_reefjaw"
-  },
-  {
-   "id": "B03",
-   "name": "Storm Serpent",
-   "cls": "dragon",
-   "size": "XXL",
-   "hitbox": [
-    620,
-    160
-   ],
-   "path": "boss_lane",
-   "spawnWeight": 1.0,
-   "speed": 55,
-   "outcomes": {
-    "base": [
-     [
-      50,
-      30
-     ],
-     [
-      80,
-      25
-     ],
-     [
-      100,
-      20
-     ],
-     [
-      150,
-      15
-     ],
-     [
-      220,
-      10
-     ]
-    ],
-    "mult": [
-     [
+  "bets": {
+    "ladder": [
+      0.05,
+      0.1,
+      0.2,
+      0.3,
+      0.4,
+      0.5,
+      0.6,
+      0.7,
+      0.8,
+      0.9,
       1,
-      40
-     ],
-     [
+      1.5,
       2,
-      25
-     ],
-     [
+      2.5,
       3,
-      15
-     ],
-     [
+      3.5,
       4,
-      8
-     ],
-     [
+      4.5,
       5,
-      5
-     ],
-     [
       6,
-      3
-     ],
-     [
       7,
-      2
-     ],
-     [
       8,
-      1
-     ],
-     [
       9,
-      1
-     ]
-    ],
-    "cap": 1980
-   },
-   "art": "b03_storm_serpent",
-   "facingLeft": false,
-   "model": "storm_serpent"
-  },
-  {
-   "id": "B04",
-   "name": "Phantom Galleon",
-   "cls": "boss",
-   "size": "XXL",
-   "hitbox": [
-    420,
-    220
-   ],
-   "path": "boss_lane",
-   "spawnWeight": 1.0,
-   "speed": 40,
-   "outcomes": {
-    "base": [
-     [
-      100,
-      30
-     ],
-     [
-      120,
-      25
-     ],
-     [
-      150,
-      20
-     ],
-     [
-      180,
-      15
-     ],
-     [
-      200,
       10
-     ]
     ],
-    "awak_p": 0.12,
-    "awak": [
-     [
-      200,
-      40
-     ],
-     [
-      400,
-      30
-     ],
-     [
-      600,
-      18
-     ],
-     [
-      800,
-      8
-     ],
-     [
-      1000,
-      4
-     ]
-    ],
-    "cap": 1200
-   },
-   "art": "b04_phantom_galleon",
-   "facingLeft": false,
-   "model": "phantom_galleon"
+    "default": 0.05,
+    "minIndex": 0,
+    "maxIndex": 23
   },
-  {
-   "id": "K01",
-   "name": "Count Nocturne",
-   "cls": "vampire",
-   "size": "XXL",
-   "hitbox": [
-    300,
-    320
-   ],
-   "path": "king_stage",
-   "spawnWeight": 0.6,
-   "speed": 30,
-   "outcomes": {
-    "start": 100,
-    "step": 1,
-    "capV": 600,
-    "rev": [
-     [
-      1,
-      70
-     ],
-     [
-      2,
-      15
-     ],
-     [
-      3,
-      8
-     ],
-     [
-      4,
-      4
-     ],
-     [
-      5,
-      3
-     ]
-    ],
-    "cap": 3000
-   },
-   "art": "k01_count_nocturne",
-   "facingLeft": false,
-   "model": "count_nocturne",
-   "modelProp": "count_nocturne_coffin"
-  },
-  {
-   "id": "K02",
-   "name": "Riff Reaper",
-   "cls": "king",
-   "size": "XXL",
-   "hitbox": [
-    280,
-    360
-   ],
-   "path": "king_stage",
-   "spawnWeight": 0.6,
-   "speed": 30,
-   "outcomes": [
-    [
-     90,
-     50
-    ],
-    [
-     150,
-     15
-    ],
-    [
-     240,
-     10
-    ],
-    [
-     360,
-     9
-    ],
-    [
-     500,
-     7
-    ],
-    [
-     800,
-     5
-    ],
-    [
-     1200,
-     3
-    ],
-    [
-     1800,
-     0.7
-    ],
-    [
-     2400,
-     0.3
-    ]
-   ],
-   "art": "k02_riff_reaper",
-   "facingLeft": false,
-   "model": "riff_reaper"
-  }
- ],
- "s01": {
-  "id": "S01",
-  "name": "Vortex variant",
-  "cls": "vortex",
-  "size": "as carrier",
-  "hitbox": null,
-  "path": "carrier",
-  "spawnWeight": 0,
-  "speed": 0
- },
- "winTiers": {
-  "big": 50,
-  "super": 150,
-  "mega": 500,
-  "bigMs": 3000,
-  "superMs": 4500,
-  "megaMs": 6000,
-  "jackpotMs": 8000
- },
- "ui": {
-  "yourLocationMs": 5000,
-  "bossWarningMs": 3000
- },
- "tutorial": {
-  "balance": 20.0,
-  "bet": 0.1
- },
- "bots": {
-  "betRange": [
-   0.05,
-   1
+  "cannonTiers": [
+    {
+      "tier": 1,
+      "name": "Coral Turret",
+      "minBet": 0.05,
+      "maxBet": 0.3
+    },
+    {
+      "tier": 2,
+      "name": "Tidal Mech",
+      "minBet": 0.4,
+      "maxBet": 0.9
+    },
+    {
+      "tier": 3,
+      "name": "Magma Forge",
+      "minBet": 1,
+      "maxBet": 3.5
+    },
+    {
+      "tier": 4,
+      "name": "Sovereign Gold",
+      "minBet": 4,
+      "maxBet": 10
+    }
   ],
-  "shotsPerS": [
-   2,
-   4
-  ]
- },
- "minFishOnScreen": 25
+  "firing": {
+    "fireIntervalMs": 130,
+    "bulletSpeedPxS": 1400,
+    "maxBulletsPerSeat": 30,
+    "maxBounces": 8,
+    "bulletLifetimeMs": 6000,
+    "bulletRadiusPx": 14,
+    "netRadiusPx": {
+      "1": 60,
+      "2": 70,
+      "3": 80,
+      "4": 90
+    },
+    "holdToFire": true
+  },
+  "lockOn": {
+    "enabled": true,
+    "homingTurnRateDegS": 720,
+    "ignoreOtherFish": true,
+    "autoRetargetOnDeath": false
+  },
+  "autoFishing": {
+    "enabled": true,
+    "defaultSelection": "all",
+    "retargetPriority": "highestMultiplierInSelection"
+  },
+  "specials": {
+    "phoenixBlaze": {
+      "costMultiplier": 5,
+      "hitRateMultiplier": 5,
+      "payout": "cost x m / 5",
+      "pierce": true,
+      "maxTargetsPierced": 1
+    },
+    "dragonStorm": {
+      "costMultiplier": 7,
+      "radiusPx": 260,
+      "maxFishInRange": 12,
+      "payout": "cost x m / 7 per captured fish",
+      "splitHitRate": "7 x P_i / n"
+    },
+    "rocketCannon": {
+      "triggerChancePerShot": 0.002,
+      "rockets": 4,
+      "rocketCaptureBudget": 0.625
+    },
+    "abyssVortex": {
+      "energyRateOfBet": 0.025,
+      "fullAtBetUnits": 2.5,
+      "awardFactorTable": [
+        [
+          0.3,
+          30
+        ],
+        [
+          0.6,
+          30
+        ],
+        [
+          1.0,
+          20
+        ],
+        [
+          1.8,
+          12
+        ],
+        [
+          3.0,
+          6
+        ],
+        [
+          5.0,
+          2
+        ]
+      ],
+      "energyExpiryHours": 24
+    },
+    "vortexFish": {
+      "variantChance": 0.05,
+      "eligible": [
+        "F04",
+        "F05",
+        "F06",
+        "F07",
+        "F08",
+        "F09",
+        "F10",
+        "F11",
+        "F12"
+      ]
+    },
+    "laserCrab": {
+      "durationMs": 8000,
+      "tickMs": 100
+    },
+    "fortuneWheel": {
+      "spinMs": 4000
+    }
+  },
+  "jackpots": {
+    "perBetLevelPools": true,
+    "tiers": {
+      "mega": {
+        "seedXBet": 2500,
+        "initialXBet": 4516,
+        "contribution": 0.0018
+      },
+      "major": {
+        "seedXBet": 600,
+        "initialXBet": 1738,
+        "contribution": 0.0009
+      },
+      "mini": {
+        "seedXBet": 200,
+        "initialXBet": 579,
+        "contribution": 0.0003
+      }
+    },
+    "eligibleSpecies": [
+      "F01",
+      "F02",
+      "F03",
+      "F04",
+      "F05",
+      "F06",
+      "F07",
+      "F08",
+      "F09",
+      "F10",
+      "F11",
+      "F12",
+      "F13",
+      "G01",
+      "G02",
+      "G03",
+      "G04",
+      "G05",
+      "G06",
+      "C01",
+      "C02",
+      "C03",
+      "C04",
+      "C05",
+      "S02",
+      "B01",
+      "B02",
+      "B03",
+      "B04",
+      "K01",
+      "K02"
+    ],
+    "rollOn": "capture_any",
+    "eligibleHitShareEstimate": 0.03,
+    "tickerUpdateMs": 1000
+  },
+  "spawn": {
+    "maxFishOnScreen": 60,
+    "tickMs": 250,
+    "bossCooldownMs": [
+      45000,
+      90000
+    ],
+    "kingCooldownMs": [
+      120000,
+      240000
+    ],
+    "tideDurationMs": 4000,
+    "formationChance": 0.25,
+    "firstBossMs": [
+      25000,
+      40000
+    ],
+    "sceneIntervalMs": [
+      480000,
+      620000
+    ],
+    "firstSceneMs": [
+      90000,
+      240000
+    ],
+    "sceneTransitionMs": 4000,
+    "sceneClearMs": 2200,
+    "sceneOrder": [
+      "lagoon",
+      "stage",
+      "lagoon",
+      "reef"
+    ]
+  },
+  "seats": {
+    "count": 4,
+    "demoBots": 3,
+    "positions": {
+      "1": [
+        0.28,
+        0.93,
+        0
+      ],
+      "2": [
+        0.72,
+        0.93,
+        0
+      ],
+      "3": [
+        0.28,
+        0.07,
+        180
+      ],
+      "4": [
+        0.72,
+        0.07,
+        180
+      ]
+    }
+  },
+  "idle": {
+    "warnAfterMs": 120000,
+    "countdownMs": 60000
+  },
+  "species": [
+    {
+      "id": "F01",
+      "name": "Wingfin Minnow",
+      "cls": "normal",
+      "size": "XS",
+      "hitbox": [
+        48,
+        40
+      ],
+      "path": "school_bezier",
+      "spawnWeight": 220,
+      "speed": 233,
+      "outcomes": [
+        [
+          2,
+          1
+        ]
+      ],
+      "art": "f01_wingfin_minnow",
+      "facingLeft": false,
+      "model": "wingfin_minnow"
+    },
+    {
+      "id": "F02",
+      "name": "Ember Clownfish",
+      "cls": "normal",
+      "size": "XS",
+      "hitbox": [
+        44,
+        30
+      ],
+      "path": "school_bezier",
+      "spawnWeight": 200,
+      "speed": 216,
+      "outcomes": [
+        [
+          3,
+          1
+        ]
+      ],
+      "art": "f02_ember_clownfish",
+      "facingLeft": false,
+      "model": "ember_clownfish"
+    },
+    {
+      "id": "F03",
+      "name": "Sunstripe Darter",
+      "cls": "normal",
+      "size": "XS",
+      "hitbox": [
+        56,
+        30
+      ],
+      "path": "school_bezier",
+      "spawnWeight": 170,
+      "speed": 251,
+      "outcomes": [
+        [
+          4,
+          1
+        ]
+      ],
+      "art": "f03_sunstripe_darter",
+      "facingLeft": false,
+      "model": "sunstripe_darter"
+    },
+    {
+      "id": "F04",
+      "name": "Bubblegum Puffer",
+      "cls": "normal",
+      "size": "S",
+      "hitbox": [
+        56,
+        56
+      ],
+      "path": "wander_spline",
+      "spawnWeight": 150,
+      "speed": 150,
+      "outcomes": [
+        [
+          5,
+          1
+        ]
+      ],
+      "art": "f04_bubblegum_puffer",
+      "facingLeft": false,
+      "model": "bubblegum_puffer"
+    },
+    {
+      "id": "F05",
+      "name": "Orchid Lionfish",
+      "cls": "normal",
+      "size": "S",
+      "hitbox": [
+        70,
+        56
+      ],
+      "path": "wander_spline",
+      "spawnWeight": 130,
+      "speed": 159,
+      "outcomes": [
+        [
+          6,
+          1
+        ]
+      ],
+      "art": "f05_orchid_lionfish",
+      "facingLeft": true,
+      "model": "orchid_lionfish"
+    },
+    {
+      "id": "F06",
+      "name": "Lemon Frogfish",
+      "cls": "normal",
+      "size": "S",
+      "hitbox": [
+        70,
+        64
+      ],
+      "path": "wander_spline",
+      "spawnWeight": 110,
+      "speed": 133,
+      "outcomes": [
+        [
+          7,
+          1
+        ]
+      ],
+      "art": "f06_lemon_frogfish",
+      "facingLeft": false,
+      "model": "lemon_frogfish"
+    },
+    {
+      "id": "F07",
+      "name": "Ruby Lobster",
+      "cls": "normal",
+      "size": "S",
+      "hitbox": [
+        76,
+        60
+      ],
+      "path": "straight_drift",
+      "spawnWeight": 100,
+      "speed": 141,
+      "outcomes": [
+        [
+          8,
+          1
+        ]
+      ],
+      "art": "f07_ruby_lobster",
+      "facingLeft": false,
+      "model": "ruby_lobster"
+    },
+    {
+      "id": "F08",
+      "name": "Violet Needlefish",
+      "cls": "normal",
+      "size": "M",
+      "hitbox": [
+        110,
+        34
+      ],
+      "path": "straight_fast",
+      "spawnWeight": 90,
+      "speed": 317,
+      "outcomes": [
+        [
+          9,
+          1
+        ]
+      ],
+      "art": "f08_violet_needlefish",
+      "facingLeft": false,
+      "model": "violet_needlefish"
+    },
+    {
+      "id": "F09",
+      "name": "Jade Turtle",
+      "cls": "normal",
+      "size": "M",
+      "hitbox": [
+        96,
+        96
+      ],
+      "path": "wander_spline",
+      "spawnWeight": 45,
+      "speed": 117,
+      "outcomes": [
+        [
+          15,
+          1
+        ]
+      ],
+      "art": "f09_jade_turtle",
+      "facingLeft": false,
+      "model": "jade_turtle"
+    },
+    {
+      "id": "F10",
+      "name": "Coral Octopus",
+      "cls": "normal",
+      "size": "M",
+      "hitbox": [
+        96,
+        96
+      ],
+      "path": "pulse_spline",
+      "spawnWeight": 70,
+      "speed": 108,
+      "outcomes": [
+        [
+          10,
+          1
+        ]
+      ],
+      "art": "f10_coral_octopus",
+      "facingLeft": false,
+      "model": "coral_octopus"
+    },
+    {
+      "id": "F11",
+      "name": "Glowlamp Angler",
+      "cls": "normal",
+      "size": "M",
+      "hitbox": [
+        100,
+        80
+      ],
+      "path": "wander_spline",
+      "spawnWeight": 60,
+      "speed": 117,
+      "outcomes": [
+        [
+          12,
+          1
+        ]
+      ],
+      "art": "f11_glowlamp_angler",
+      "facingLeft": false,
+      "model": "glowlamp_angler"
+    },
+    {
+      "id": "F12",
+      "name": "Azure Manta",
+      "cls": "normal",
+      "size": "L",
+      "hitbox": [
+        190,
+        150
+      ],
+      "path": "glide_bezier",
+      "spawnWeight": 30,
+      "speed": 133,
+      "outcomes": [
+        [
+          20,
+          1
+        ]
+      ],
+      "art": "f12_azure_manta",
+      "facingLeft": false,
+      "model": "azure_manta"
+    },
+    {
+      "id": "F13",
+      "name": "Ember Swordfish",
+      "cls": "normal",
+      "size": "M",
+      "hitbox": [
+        115,
+        34
+      ],
+      "path": "straight_fast",
+      "spawnWeight": 40,
+      "speed": 292,
+      "outcomes": [
+        [
+          18,
+          1
+        ]
+      ],
+      "art": "f13_ember_swordfish",
+      "facingLeft": false,
+      "model": "ember_swordfish"
+    },
+    {
+      "id": "G01",
+      "name": "Giant Clownfish",
+      "cls": "giant",
+      "size": "L",
+      "hitbox": [
+        170,
+        130
+      ],
+      "path": "glide_bezier",
+      "spawnWeight": 25,
+      "speed": 108,
+      "outcomes": [
+        [
+          10,
+          30
+        ],
+        [
+          15,
+          25
+        ],
+        [
+          20,
+          20
+        ],
+        [
+          25,
+          15
+        ],
+        [
+          30,
+          10
+        ]
+      ],
+      "art": "g01_giant_clownfish",
+      "facingLeft": false,
+      "model": "giant_clownfish"
+    },
+    {
+      "id": "G02",
+      "name": "Giant Bannerfish",
+      "cls": "giant",
+      "size": "L",
+      "hitbox": [
+        200,
+        120
+      ],
+      "path": "glide_bezier",
+      "spawnWeight": 25,
+      "speed": 108,
+      "outcomes": [
+        [
+          10,
+          30
+        ],
+        [
+          15,
+          25
+        ],
+        [
+          20,
+          20
+        ],
+        [
+          25,
+          15
+        ],
+        [
+          30,
+          10
+        ]
+      ],
+      "art": "g02_giant_bannerfish",
+      "facingLeft": false,
+      "model": "giant_bannerfish"
+    },
+    {
+      "id": "G03",
+      "name": "Giant Fugu",
+      "cls": "giant",
+      "size": "L",
+      "hitbox": [
+        170,
+        160
+      ],
+      "path": "glide_bezier",
+      "spawnWeight": 25,
+      "speed": 93,
+      "outcomes": [
+        [
+          10,
+          30
+        ],
+        [
+          15,
+          25
+        ],
+        [
+          20,
+          20
+        ],
+        [
+          25,
+          15
+        ],
+        [
+          30,
+          10
+        ]
+      ],
+      "art": "g03_giant_fugu",
+      "facingLeft": false,
+      "model": "giant_fugu"
+    },
+    {
+      "id": "G04",
+      "name": "Tidal Shark",
+      "cls": "giant",
+      "size": "XL",
+      "hitbox": [
+        300,
+        130
+      ],
+      "path": "glide_bezier",
+      "spawnWeight": 18,
+      "speed": 140,
+      "outcomes": [
+        [
+          20,
+          30
+        ],
+        [
+          30,
+          25
+        ],
+        [
+          40,
+          20
+        ],
+        [
+          50,
+          15
+        ],
+        [
+          60,
+          10
+        ]
+      ],
+      "art": "g04_tidal_shark",
+      "facingLeft": false,
+      "model": "tidal_shark"
+    },
+    {
+      "id": "G05",
+      "name": "Ember Orca",
+      "cls": "giant",
+      "size": "XL",
+      "hitbox": [
+        340,
+        150
+      ],
+      "path": "glide_bezier",
+      "spawnWeight": 12,
+      "speed": 116,
+      "outcomes": [
+        [
+          30,
+          30
+        ],
+        [
+          45,
+          25
+        ],
+        [
+          60,
+          20
+        ],
+        [
+          80,
+          15
+        ],
+        [
+          100,
+          10
+        ]
+      ],
+      "art": "g05_ember_orca",
+      "facingLeft": true,
+      "model": "ember_orca"
+    },
+    {
+      "id": "G06",
+      "name": "Sovereign Gold Whale",
+      "cls": "giant",
+      "size": "XL",
+      "hitbox": [
+        380,
+        170
+      ],
+      "path": "glide_bezier",
+      "spawnWeight": 6,
+      "speed": 101,
+      "outcomes": [
+        [
+          100,
+          1
+        ]
+      ],
+      "art": "g06_sovereign_gold_whale",
+      "facingLeft": false,
+      "model": "sovereign_gold_whale"
+    },
+    {
+      "id": "C01",
+      "name": "Blast Crab",
+      "cls": "crab",
+      "size": "L",
+      "hitbox": [
+        150,
+        130
+      ],
+      "path": "crawl_spline",
+      "spawnWeight": 4,
+      "speed": 80,
+      "outcomes": [
+        [
+          120,
+          40
+        ],
+        [
+          140,
+          25
+        ],
+        [
+          160,
+          20
+        ],
+        [
+          180,
+          15
+        ]
+      ],
+      "art": "c01_blast_crab",
+      "facingLeft": false,
+      "model": "blast_crab"
+    },
+    {
+      "id": "C02",
+      "name": "Auger Crab",
+      "cls": "crab",
+      "size": "L",
+      "hitbox": [
+        160,
+        130
+      ],
+      "path": "crawl_spline",
+      "spawnWeight": 4,
+      "speed": 80,
+      "outcomes": [
+        [
+          120,
+          40
+        ],
+        [
+          140,
+          25
+        ],
+        [
+          160,
+          20
+        ],
+        [
+          180,
+          15
+        ]
+      ],
+      "art": "c02_auger_crab",
+      "facingLeft": false,
+      "model": "auger_crab"
+    },
+    {
+      "id": "C03",
+      "name": "Quake Crab",
+      "cls": "crab",
+      "size": "L",
+      "hitbox": [
+        160,
+        140
+      ],
+      "path": "crawl_spline",
+      "spawnWeight": 3,
+      "speed": 72,
+      "outcomes": [
+        [
+          150,
+          40
+        ],
+        [
+          175,
+          25
+        ],
+        [
+          200,
+          20
+        ],
+        [
+          225,
+          15
+        ]
+      ],
+      "art": "c03_quake_crab",
+      "facingLeft": false,
+      "model": "quake_crab"
+    },
+    {
+      "id": "C04",
+      "name": "Prism Crab",
+      "cls": "crab",
+      "size": "L",
+      "hitbox": [
+        150,
+        130
+      ],
+      "path": "crawl_spline",
+      "spawnWeight": 3,
+      "speed": 72,
+      "outcomes": [
+        [
+          150,
+          40
+        ],
+        [
+          175,
+          25
+        ],
+        [
+          200,
+          20
+        ],
+        [
+          225,
+          15
+        ]
+      ],
+      "art": "c04_prism_crab",
+      "facingLeft": false,
+      "model": "prism_crab"
+    },
+    {
+      "id": "C05",
+      "name": "Fortune Crab",
+      "cls": "crab",
+      "size": "L",
+      "hitbox": [
+        160,
+        150
+      ],
+      "path": "crawl_spline",
+      "spawnWeight": 3,
+      "speed": 72,
+      "outcomes": [
+        [
+          20,
+          22
+        ],
+        [
+          30,
+          22
+        ],
+        [
+          50,
+          18
+        ],
+        [
+          110,
+          12
+        ],
+        [
+          120,
+          10
+        ],
+        [
+          180,
+          7
+        ],
+        [
+          230,
+          5
+        ],
+        [
+          300,
+          2.5
+        ],
+        [
+          500,
+          1.0
+        ],
+        [
+          800,
+          0.5
+        ]
+      ],
+      "art": "c05_fortune_crab",
+      "facingLeft": false,
+      "model": "fortune_crab"
+    },
+    {
+      "id": "S02",
+      "name": "Chain Lightning Needlefish",
+      "cls": "chain",
+      "size": "M",
+      "hitbox": [
+        120,
+        120
+      ],
+      "path": "straight_fast",
+      "spawnWeight": 8,
+      "speed": 251,
+      "outcomes": [
+        [
+          40,
+          30
+        ],
+        [
+          60,
+          25
+        ],
+        [
+          90,
+          20
+        ],
+        [
+          130,
+          12
+        ],
+        [
+          180,
+          8
+        ],
+        [
+          230,
+          5
+        ]
+      ],
+      "art": "s02_chain_needlefish_composite",
+      "facingLeft": false,
+      "model": "chain_lightning_needlefish"
+    },
+    {
+      "id": "B01",
+      "name": "Pearl Siren",
+      "cls": "boss",
+      "size": "XL",
+      "hitbox": [
+        220,
+        300
+      ],
+      "path": "boss_lane",
+      "spawnWeight": 1.2,
+      "speed": 58,
+      "outcomes": {
+        "base": [
+          [
+            100,
+            30
+          ],
+          [
+            120,
+            25
+          ],
+          [
+            150,
+            20
+          ],
+          [
+            180,
+            15
+          ],
+          [
+            200,
+            10
+          ]
+        ],
+        "awak_p": 0.12,
+        "awak": [
+          [
+            200,
+            40
+          ],
+          [
+            400,
+            30
+          ],
+          [
+            600,
+            18
+          ],
+          [
+            800,
+            8
+          ],
+          [
+            1000,
+            4
+          ]
+        ],
+        "cap": 1200
+      },
+      "art": "b01_pearl_siren",
+      "facingLeft": false,
+      "model": "pearl_siren"
+    },
+    {
+      "id": "B02",
+      "name": "Elder Reefjaw",
+      "cls": "boss",
+      "size": "XL",
+      "hitbox": [
+        460,
+        150
+      ],
+      "path": "boss_lane",
+      "spawnWeight": 1.2,
+      "speed": 58,
+      "outcomes": {
+        "base": [
+          [
+            100,
+            30
+          ],
+          [
+            120,
+            25
+          ],
+          [
+            150,
+            20
+          ],
+          [
+            180,
+            15
+          ],
+          [
+            200,
+            10
+          ]
+        ],
+        "awak_p": 0.12,
+        "awak": [
+          [
+            200,
+            40
+          ],
+          [
+            400,
+            30
+          ],
+          [
+            600,
+            18
+          ],
+          [
+            800,
+            8
+          ],
+          [
+            1000,
+            4
+          ]
+        ],
+        "cap": 1200
+      },
+      "art": "b02_elder_reefjaw",
+      "facingLeft": false,
+      "model": "elder_reefjaw"
+    },
+    {
+      "id": "B03",
+      "name": "Storm Serpent",
+      "cls": "dragon",
+      "size": "XXL",
+      "hitbox": [
+        620,
+        160
+      ],
+      "path": "boss_lane",
+      "spawnWeight": 1.0,
+      "speed": 72,
+      "outcomes": {
+        "base": [
+          [
+            50,
+            30
+          ],
+          [
+            80,
+            25
+          ],
+          [
+            100,
+            20
+          ],
+          [
+            150,
+            15
+          ],
+          [
+            220,
+            10
+          ]
+        ],
+        "mult": [
+          [
+            1,
+            40
+          ],
+          [
+            2,
+            25
+          ],
+          [
+            3,
+            15
+          ],
+          [
+            4,
+            8
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            6,
+            3
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            8,
+            1
+          ],
+          [
+            9,
+            1
+          ]
+        ],
+        "cap": 1980
+      },
+      "art": "b03_storm_serpent",
+      "facingLeft": false,
+      "model": "storm_serpent"
+    },
+    {
+      "id": "B04",
+      "name": "Phantom Galleon",
+      "cls": "boss",
+      "size": "XXL",
+      "hitbox": [
+        420,
+        220
+      ],
+      "path": "boss_lane",
+      "spawnWeight": 1.0,
+      "speed": 52,
+      "outcomes": {
+        "base": [
+          [
+            100,
+            30
+          ],
+          [
+            120,
+            25
+          ],
+          [
+            150,
+            20
+          ],
+          [
+            180,
+            15
+          ],
+          [
+            200,
+            10
+          ]
+        ],
+        "awak_p": 0.12,
+        "awak": [
+          [
+            200,
+            40
+          ],
+          [
+            400,
+            30
+          ],
+          [
+            600,
+            18
+          ],
+          [
+            800,
+            8
+          ],
+          [
+            1000,
+            4
+          ]
+        ],
+        "cap": 1200
+      },
+      "art": "b04_phantom_galleon",
+      "facingLeft": false,
+      "model": "phantom_galleon"
+    },
+    {
+      "id": "K01",
+      "name": "Count Nocturne",
+      "cls": "vampire",
+      "size": "XXL",
+      "hitbox": [
+        300,
+        320
+      ],
+      "path": "king_stage",
+      "spawnWeight": 0.6,
+      "speed": 30,
+      "outcomes": {
+        "start": 100,
+        "step": 1,
+        "capV": 600,
+        "rev": [
+          [
+            1,
+            70
+          ],
+          [
+            2,
+            15
+          ],
+          [
+            3,
+            8
+          ],
+          [
+            4,
+            4
+          ],
+          [
+            5,
+            3
+          ]
+        ],
+        "cap": 3000
+      },
+      "art": "k01_count_nocturne",
+      "facingLeft": false,
+      "model": "count_nocturne",
+      "modelProp": "count_nocturne_coffin"
+    },
+    {
+      "id": "K02",
+      "name": "Riff Reaper",
+      "cls": "king",
+      "size": "XXL",
+      "hitbox": [
+        280,
+        360
+      ],
+      "path": "king_stage",
+      "spawnWeight": 0.6,
+      "speed": 30,
+      "outcomes": [
+        [
+          90,
+          50
+        ],
+        [
+          150,
+          15
+        ],
+        [
+          240,
+          10
+        ],
+        [
+          360,
+          9
+        ],
+        [
+          500,
+          7
+        ],
+        [
+          800,
+          5
+        ],
+        [
+          1200,
+          3
+        ],
+        [
+          1800,
+          0.7
+        ],
+        [
+          2400,
+          0.3
+        ]
+      ],
+      "art": "k02_riff_reaper",
+      "facingLeft": false,
+      "model": "riff_reaper"
+    }
+  ],
+  "s01": {
+    "id": "S01",
+    "name": "Vortex variant",
+    "cls": "vortex",
+    "size": "as carrier",
+    "hitbox": null,
+    "path": "carrier",
+    "spawnWeight": 0,
+    "speed": 0
+  },
+  "winTiers": {
+    "big": 50,
+    "super": 150,
+    "mega": 500,
+    "bigMs": 3000,
+    "superMs": 4500,
+    "megaMs": 6000,
+    "jackpotMs": 8000
+  },
+  "ui": {
+    "yourLocationMs": 5000,
+    "bossWarningMs": 3000
+  },
+  "tutorial": {
+    "balance": 20.0,
+    "bet": 0.1
+  },
+  "bots": {
+    "betRange": [
+      0.05,
+      1
+    ],
+    "shotsPerS": [
+      5,
+      7.5
+    ]
+  },
+  "minFishOnScreen": 25
 }
