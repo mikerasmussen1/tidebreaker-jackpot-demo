@@ -1419,9 +1419,9 @@
     "speed": 0
   },
   "winTiers": {
-    "big": 50,
-    "super": 150,
-    "mega": 500,
+    "big": 150,
+    "super": 400,
+    "mega": 800,
     "bigMs": 3000,
     "superMs": 4500,
     "megaMs": 6000,
